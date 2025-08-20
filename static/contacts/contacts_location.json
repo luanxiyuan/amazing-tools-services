@@ -1,0 +1,58 @@
+[
+  {
+    "id": "chennai",
+    "name": "IN - Chennai"
+  },
+  {
+    "id": "pune",
+    "name": "IN - Pune"
+  },
+  {
+    "id": "dadri",
+    "name": "IN - Dadri"
+  },
+  {
+    "id": "barasat",
+    "name": "IN - Barasat"
+  },
+  {
+    "id": "bengaluru",
+    "name": "IN - Bengaluru"
+  },
+  {
+    "id": "newdalhi",
+    "name": "IN - New Dalhi"
+  },
+  {
+    "id": "pimpri",
+    "name": "IN - Pimpri"
+  },
+  {
+    "id": "dallas",
+    "name": "US - Texas Dallas"
+  },
+  {
+    "id": "garland",
+    "name": "US - Texas Garland"
+  },
+  {
+    "id": "sg",
+    "name": "Singapore"
+  },
+  {
+    "id": "pl",
+    "name": "Poland"
+  },
+  {
+    "id": "shanghai",
+    "name": "CN - Shanghai"
+  },
+  {
+    "id": "dalian",
+    "name": "CN - Dalian"
+  },
+  {
+    "id": "hk",
+    "name": "CN - HongKong"
+  }
+]

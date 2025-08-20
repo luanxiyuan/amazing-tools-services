@@ -1,0 +1,14 @@
+.tool_section {
+    margin: 10px 10px 20px 10px;
+    background-color: lightgray;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.result_view_section {
+    width: 100%;
+    max-height: 60vh;
+    overflow-y: auto;
+    border: solid 1px darkgray;
+    background-color: white;
+}

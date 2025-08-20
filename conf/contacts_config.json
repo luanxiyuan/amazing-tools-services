@@ -1,0 +1,6 @@
+{
+  "location_file_path": "/static/contacts/contacts_location.json",
+  "team_file_path": "/static/contacts/contacts_team.json",
+  "person_file_path": "/static/contacts/contacts_person.json",
+  "person_excel_file_path": "/static/contacts/contacts_person.xlsx"
+}

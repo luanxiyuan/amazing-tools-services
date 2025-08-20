@@ -1,0 +1,98 @@
+{
+  "GBMO": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-borrow/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-hk-artifacts/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-hk-rules/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-pl-artifacts/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-pl-rules/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-sg-artifacts/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-web-sg-rules/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-angular-odyssey-widgets/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-divest-angular-odyssey-widgets/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-angular-m63-web/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/167407-divest-angular-m63-web/browse"
+  ],
+  "APACM": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-augcb-env-ext/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-augcb-rule/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-common-api-dto/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-ebrk-gdto/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-ebrk-gmp-project/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-ebrk-gmp-project-was9/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-hkgcb-env-ext/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-hkgcb-rule/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-sea-gdto/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-sea-gmp-project/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-sggcb-env-ext/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACM/repos/167407-mobile-app-sggcb-rule/browse"
+  ],
+  "EMMOB": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/EMMOB/repos/167407-mobile-app-emea-ebrk/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/EMMOB/repos/167407-mobile-app-emea-ebrk-was9/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/EMMOB/repos/167407-mobile-app-emea-gdto/browse"
+  ],
+  "PLMOB": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/PLMOB/repos/168485-mobile-app-pl-gmp-project/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/PLMOB/repos/168485-mobile-app-pl-gmp-project-was9/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/PLMOB/repos/168485-mobile-app-plmbk-rule/browse"
+  ],
+  "EMEAUAEMBOL": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/EMEAUAEMBOL/repos/169307-emea-gmp-web/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/EMEAUAEMBOL/repos/169307-mobile-app-aembk-rule/browse"
+  ],
+  "APACMOBSG": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACMOBSG/repos/168759-common-digital-api-fwproxy-was9/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACMOBSG/repos/168759-mobile-app-sggcb-env-ext/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/APACMOBSG/repos/168759-mobile-app-sggcb-rule/browse"
+  ],
+  "MP": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-apipromotions/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-apipromotions-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-document/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-document-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-securityproxy/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/GBMO/repos/147634-psg-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-deleteofferfromwallet/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-documentgeneration/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-location/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-location-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-masterpromotion/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-masterpromotion-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-merchant/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-merchant-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-merchantworkflow/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-merchantworkflow-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-notification/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-notification-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-promotionfeedback/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-promotionfeedback-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-promotionhistory/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-promotionhistory-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-promotionworkflow/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-promotionworkflow-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-referencedata/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-referencedata-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-userinvitation/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-userinvitation-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-userservice/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-userservice-config/browse",
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/MP/repos/171631-mp-dbstore/browse"
+  ],
+  "CONSUMERAPI": [
+    "https://cedt-gct-bitbucket.nam.nsroot.net/bitbucket/projects/CONSUMERAPI/repos/169068-capi-api-config-automation/browse"
+  ],
+  "GT": [
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-bulk-transfer/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-core/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-landing/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-loan-payment/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-manage-payees/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-manage-transfer/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/GT/repos/gft-ui-order-capture/browse"
+  ],
+  "CONSUMER": [
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/CONSUMER/repos/gft-ui-bill-payment/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/CONSUMER/repos/gft-ui-billpay-payees/browse",
+    "https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/CONSUMER/repos/gft-ui-mcd/browse"
+  ]
+}

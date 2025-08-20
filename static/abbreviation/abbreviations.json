@@ -1,0 +1,2606 @@
+[
+  {
+    "abbreviation": "GCB",
+    "fullName": "Golbal Consumer Bank",
+    "id": "5828a581-0bf3-489e-9762-1dbdcfec9c72",
+    "remarks": null
+  },
+  {
+    "abbreviation": "ICG",
+    "fullName": "Institutional Clients Group",
+    "id": "17d1b443-6fc1-44f2-b675-be7e0b114d92",
+    "remarks": null
+  },
+  {
+    "abbreviation": "GCT",
+    "fullName": "Global Consumer Technology",
+    "id": "62315d81-5fbf-4cac-b944-ff23aa80a57d",
+    "remarks": null
+  },
+  {
+    "abbreviation": "OPPM",
+    "fullName": "Oracle Primavera Portfolio Management",
+    "id": "b53479b3-8445-4dc4-b1b5-cc45cfe7c23d",
+    "remarks": "Demand Management tool"
+  },
+  {
+    "abbreviation": "Planview",
+    "fullName": null,
+    "id": "e9e80213-4989-44bc-b11a-47a4421a631f",
+    "remarks": "Project & Team Info, Time Tracking and Artifacts"
+  },
+  {
+    "abbreviation": "Blueprint",
+    "fullName": null,
+    "id": "2e2f651c-243f-4772-9324-45dc1616c220",
+    "remarks": "Artifact creation tool\nBusiness Requirement documents;\nFunctional Requirement documents;\nSupporting artifacts using a standard artifact"
+  },
+  {
+    "abbreviation": "RTC",
+    "fullName": "Rational Team Concert",
+    "id": "85301165-c0ae-4394-8982-2b45f298b4c2",
+    "remarks": "Work team management and Source code management"
+  },
+  {
+    "abbreviation": "ALM",
+    "fullName": "Application Lifecycle Management",
+    "id": "9ef91e6f-a197-4583-8a55-fe2116f4aab3",
+    "remarks": "HP's Application Lifecycle Management Quality Center\nTest management tool"
+  },
+  {
+    "abbreviation": "JFP",
+    "fullName": "Java Financial Platform",
+    "id": "b340f26a-5083-46c7-9f04-b0d1dc16964a",
+    "remarks": null
+  },
+  {
+    "abbreviation": "AML",
+    "fullName": "Anti money laundering ",
+    "id": "b6eaf350-3123-413b-b53e-9a99fedbe82e",
+    "remarks": "反洗钱"
+  },
+  {
+    "abbreviation": "DP4",
+    "fullName": null,
+    "id": "8c1478af-e6cf-4c14-8082-947f49c0e953",
+    "remarks": "最早期的struts1项目架构，包括jfpploicy、enforcement、message、jfprule等相关模块"
+  },
+  {
+    "abbreviation": "ASDP",
+    "fullName": null,
+    "id": "567286ab-a000-40f0-9e10-13b8e3eb9e54",
+    "remarks": "后期的spring+struts2项目架构，需要通过jfp-**去先做设计好流程，然后放到websphere中自动生成jsp文件"
+  },
+  {
+    "abbreviation": "Pre Login",
+    "fullName": null,
+    "id": "ae0e60c5-f2e1-47a6-801d-03313b66f2a9",
+    "remarks": "无需登陆就可访问的页面"
+  },
+  {
+    "abbreviation": "Post Login",
+    "fullName": null,
+    "id": "8541b5dd-cdf6-4125-bf38-1d20c8a19905",
+    "remarks": "需要登陆才能够访问的页面"
+  },
+  {
+    "abbreviation": "JFP Policy",
+    "fullName": null,
+    "id": "481389eb-82f4-4931-a9c2-53d2bb4f7923",
+    "remarks": "url安全拦截策略.\n1.阻挡非法路径；2.拦截指定URL去做OTP"
+  },
+  {
+    "abbreviation": "Enforcement",
+    "fullName": null,
+    "id": "8f8c6d59-0f2c-45de-8c95-f40fc5964403",
+    "remarks": "JFP框架里对请求参数的拦截用到enforcement，只有传递指定的请求参数才可以通过"
+  },
+  {
+    "abbreviation": "OTP",
+    "fullName": "one time pin",
+    "id": "6a64bff0-29b8-4efd-8603-16cdcef967c5",
+    "remarks": "发送手机验证码要求用户输入等功能"
+  },
+  {
+    "abbreviation": "C3",
+    "fullName": null,
+    "id": "00dfb254-13ab-4c87-99de-6aab38644bdf",
+    "remarks": "前端架构，通过ajax请求与后台做数据交互"
+  },
+  {
+    "abbreviation": "EMEA",
+    "fullName": "",
+    "id": "6a09c06c-e5f1-46d6-86c9-6a1b3cf405ea",
+    "remarks": "Europe, the Middle East and Africa 欧洲、中东、非洲"
+  },
+  {
+    "abbreviation": "APAC",
+    "fullName": "Asia-Pacific Economic Cooperation ",
+    "id": "177b4364-72eb-42f1-a411-0e6545fa42ac",
+    "remarks": "亚太经济合作组织"
+  },
+  {
+    "abbreviation": "Debit Card",
+    "fullName": null,
+    "id": "44f83626-efbc-46d3-a1dc-b5c6ca0de337",
+    "remarks": "借记卡"
+  },
+  {
+    "abbreviation": "VDI",
+    "fullName": null,
+    "id": "cb9bd9c1-57e4-402c-b29e-5174015d080b",
+    "remarks": "在印度vender人员使用的虚拟机桌面，类似chinalink在用的"
+  },
+  {
+    "abbreviation": "CAF ",
+    "fullName": "Card Angular Framework",
+    "id": "f0a48a2a-9180-4911-b5ac-40f5e3834246",
+    "remarks": null
+  },
+  {
+    "abbreviation": "ISV",
+    "fullName": "Individual Software Vender ",
+    "id": "6936a2e4-3663-4a50-bbd9-eea08b4faf5d",
+    "remarks": "独立软件供应商"
+  },
+  {
+    "abbreviation": "EPP",
+    "fullName": "Equal payment plan ",
+    "id": "1dc44fe9-fe00-4adb-9e2c-38587095e2a0",
+    "remarks": "平等付款计划"
+  },
+  {
+    "abbreviation": "PWP",
+    "fullName": "Pay with point ",
+    "id": "052f4ec8-b051-4c18-8340-922c91a57ee2",
+    "remarks": "用积分付款"
+  },
+  {
+    "abbreviation": "G&E policy",
+    "fullName": "business Gift and Entertainment policy",
+    "id": "a646b668-ecea-4cdd-9a7d-f2d0c430497b",
+    "remarks": "商业礼物和娱乐政策"
+  },
+  {
+    "abbreviation": "Ready Credit account",
+    "fullName": null,
+    "id": "b4188c33-6885-4bfc-8224-d6709b7c41f8",
+    "remarks": "介于贷款和信用卡之间的账户，银行会给客户一张借记卡，有额度，可以随意取现，利息相对信用卡取现较低"
+  },
+  {
+    "abbreviation": "CLD",
+    "fullName": "Credit Limit Decrease",
+    "id": "acb46f4a-79a3-4185-a4e8-23a7f7fb58cb",
+    "remarks": null
+  },
+  {
+    "abbreviation": "ACR",
+    "fullName": "Account Closure Request",
+    "id": "bee66b51-a62d-466a-8818-a341a45daf37",
+    "remarks": null
+  },
+  {
+    "abbreviation": "EIP",
+    "fullName": "Enterprise Integration Patterns",
+    "id": "6b1ab1e3-3a65-4385-845c-580fad291b05",
+    "remarks": null
+  },
+  {
+    "abbreviation": "DSL",
+    "fullName": "Domain Specific Languages",
+    "id": "5b801bca-a651-4c80-b98b-6a8748a7738b",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CVC",
+    "fullName": "Card Verification Value\nCentral Vigilance Commission",
+    "id": "a3e36e82-2e6d-44d0-bbe4-c7871b56d4b7",
+    "remarks": "Card Verification Value - Mastercard 称作Card Validation Code (CVC)\nCentral Vigilance Commission - 中央监察委员会"
+  },
+  {
+    "abbreviation": "AOP",
+    "fullName": "Account Opening",
+    "id": "373c6b4e-f5e6-4a7f-8c15-79bb518cea6a",
+    "remarks": null
+  },
+  {
+    "abbreviation": "BRK",
+    "fullName": "E-Brokerage ",
+    "id": "097b1d5a-465c-4a19-9239-4a4e73576002",
+    "remarks": "佣金"
+  },
+  {
+    "abbreviation": "CUC",
+    "fullName": "Customer Servicing",
+    "id": "77aecd5f-7700-423c-b1fb-fbfb29043c72",
+    "remarks": null
+  },
+  {
+    "abbreviation": "DSD",
+    "fullName": "Dashboard",
+    "id": "8a2ebf94-07c5-4f64-a357-6b3421de0c7d",
+    "remarks": null
+  },
+  {
+    "abbreviation": "MUF",
+    "fullName": "Mutual Funds ",
+    "id": "3ce6bec0-36d3-4297-94d4-4f31a203d17b",
+    "remarks": "共同基金"
+  },
+  {
+    "abbreviation": "PNT",
+    "fullName": "Payment & Transfer",
+    "id": "e0392f07-11cc-417c-b9b6-c65188d0df0b",
+    "remarks": null
+  },
+  {
+    "abbreviation": "PTL",
+    "fullName": "Portal ",
+    "id": "677bd0b0-40b2-447f-a1e5-9e24aee2bf0f",
+    "remarks": "整合所有模块的门户"
+  },
+  {
+    "abbreviation": "RAU",
+    "fullName": "Registration, Authentication & Authorazation",
+    "id": "7e87246f-d3a2-4cd7-ae08-519b2678d4eb",
+    "remarks": null
+  },
+  {
+    "abbreviation": "MRE",
+    "fullName": "Merchant Recommendation Engine ",
+    "id": "b851c321-ebc5-447c-815b-3e5bf29434c6",
+    "remarks": "商家推荐引擎"
+  },
+  {
+    "abbreviation": "NNM",
+    "fullName": "New Net Money",
+    "id": "2794c65e-b5ed-4f96-9c9b-bcc1ed55e84f",
+    "remarks": null
+  },
+  {
+    "abbreviation": "ECA",
+    "fullName": "Enhancement to Campaign Automation ",
+    "id": "0199dd8f-11a3-4c57-bb89-a03ea61b6e00",
+    "remarks": "增强广告系列自动化功能"
+  },
+  {
+    "abbreviation": "MTG",
+    "fullName": "mortgage ",
+    "id": "bc09c8b7-e375-4ab2-aad4-b38c160c4af3",
+    "remarks": "抵押贷款"
+  },
+  {
+    "abbreviation": "SBT",
+    "fullName": "Static Build Testing",
+    "id": "a0e8e8a5-4611-41cd-b11d-b2a97479ec68",
+    "remarks": "SBT to identify secure coding flaws within internally developed applications prior to production release scanned by Checkmarx (SAST)\nScan report can be found on Archer and CheckMarx portals."
+  },
+  {
+    "abbreviation": "RRP",
+    "fullName": "Risk Review Platform",
+    "id": "48d13b67-2cdf-4c52-8c9c-ee4bf632d58f",
+    "remarks": "一个填写关于OPPM有哪些改动的平台，填写都改了什么，有哪些影响，是否需要VA testing，TISO team会去看"
+  },
+  {
+    "abbreviation": "LOP",
+    "fullName": "Loan on Phone",
+    "id": "e03fbc26-7f91-449c-a7e8-ce4dc217a94e",
+    "remarks": null
+  },
+  {
+    "abbreviation": "NBO",
+    "fullName": "Next Best Offer",
+    "id": "46af028d-1820-4e96-835a-1207db73f9fe",
+    "remarks": null
+  },
+  {
+    "abbreviation": "RCA",
+    "fullName": "Root cause analysis",
+    "id": "5e771b5d-a30e-4a9c-90ec-5167cb1b995f",
+    "remarks": null
+  },
+  {
+    "abbreviation": "HRT",
+    "fullName": "High Risk Transacion validation",
+    "id": "bd8b38f1-6442-412f-88d3-e5923b6eb875",
+    "remarks": null
+  },
+  {
+    "abbreviation": "DD letter",
+    "fullName": "drawdown letter ",
+    "id": "7aa98c5c-779c-426f-aad6-6c7c758e31c5",
+    "remarks": "提款信"
+  },
+  {
+    "abbreviation": "AO form",
+    "fullName": "Account Opening form ",
+    "id": "e97978ab-2285-43c2-bfb9-6abab12af5f7",
+    "remarks": "开户单"
+  },
+  {
+    "abbreviation": "NFR",
+    "fullName": "Non functional requirement",
+    "id": "ecba4e32-82de-43d3-a989-b361efa8cbb9",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SDR",
+    "fullName": "Solution Design Reference\nSpecial Drawing Right",
+    "id": "b3048722-fae7-4661-9784-9bab83f6ec8f",
+    "remarks": "Solution Design Reference - 解决方案设计参考\nSpecial Drawing Right - 特别提款权"
+  },
+  {
+    "abbreviation": "NGA",
+    "fullName": "Next generation architecture",
+    "id": "47994e96-145e-40b1-96da-88c54fa095ed",
+    "remarks": "No GM APP server"
+  },
+  {
+    "abbreviation": "IADM",
+    "fullName": "Integrate Agile Deliver Model",
+    "id": "2f0bce4d-c795-46b4-bfd9-53f8faef3911",
+    "remarks": null
+  },
+  {
+    "abbreviation": "MLI",
+    "fullName": "Message Level Interface",
+    "id": "7feaf5cb-ba0b-4c50-b684-886914566b84",
+    "remarks": null
+  },
+  {
+    "abbreviation": "MOB",
+    "fullName": "Month of banking, customer",
+    "id": "41f9b327-ada7-49c1-b113-7a0f39ac6327",
+    "remarks": "信息录入到system的时间"
+  },
+  {
+    "abbreviation": "SLA",
+    "fullName": "Service Level Agreement",
+    "id": "41fad558-a7d9-4d87-bc30-d9f843eb87de",
+    "remarks": null
+  },
+  {
+    "abbreviation": "GIRO",
+    "fullName": "General Interbank Recurring Order",
+    "id": "1b901357-5b2b-420d-be6c-40f65eff9bac",
+    "remarks": "一种通过指示银行直接将资金从一个银行帐户转移到另一个银行帐户而不使用实物支票来转移资金的方法。与标准支票相比，Giro 转账的处理速度更快。"
+  },
+  {
+    "abbreviation": "MAS",
+    "fullName": "Monetary Authority of Singapore",
+    "id": "75b0d93c-9fcd-4c78-a894-6bde191a141c",
+    "remarks": "新加坡金融管理局"
+  },
+  {
+    "abbreviation": "ABS",
+    "fullName": "Association of Banks in Singapore",
+    "id": "c25ab37a-91e5-4603-b723-f15fd18e2f74",
+    "remarks": "新加坡银行公会 "
+  },
+  {
+    "abbreviation": "OCBC ",
+    "fullName": null,
+    "id": "bc61645c-e518-400c-a680-08a2d922b52c",
+    "remarks": "华侨银行 "
+  },
+  {
+    "abbreviation": "PBWMT",
+    "fullName": "Personal Banking and Wealth Management Technology",
+    "id": "e75fd112-864c-4480-85c5-1afab6737d45",
+    "remarks": null
+  },
+  {
+    "abbreviation": "DL",
+    "fullName": "Distribution List ",
+    "id": "df2e44cd-0fbe-4c42-92d8-c20477173786",
+    "remarks": null
+  },
+  {
+    "abbreviation": "NAB",
+    "fullName": "National Australia Bank",
+    "id": "29c3aef6-7dd8-4eef-94e3-5c0e28327e47",
+    "remarks": "澳洲国民银行，花旗AU GCB业务买方，8.82亿美元"
+  },
+  {
+    "abbreviation": "UBP",
+    "fullName": "Union Bank of the Philippines",
+    "id": "a9e1db92-bec1-47fd-b8ca-9537820cc3eb",
+    "remarks": "菲律宾联合银行，花旗菲律宾GCB业务买方，18亿美元"
+  },
+  {
+    "abbreviation": "AxisBank",
+    "fullName": null,
+    "id": "a6ab5a62-4bc7-448b-9899-9765a803af24",
+    "remarks": "阿克西斯银行，花旗印度GCB业务买方，16亿美元"
+  },
+  {
+    "abbreviation": "DBS",
+    "fullName": "Development Bank of Singapore",
+    "id": "50c13714-b539-4a30-9c45-9dde1cf5943c",
+    "remarks": "星展银行，花旗台湾GCB业务买方"
+  },
+  {
+    "abbreviation": "UOB",
+    "fullName": "United Overseas Bank",
+    "id": "d5164e2e-aa27-4c27-8890-aea5932c771f",
+    "remarks": "大华银行，印尼、马来西亚、泰国和越南GCB业务买方，36亿美元"
+  },
+  {
+    "abbreviation": "HSBC",
+    "fullName": null,
+    "id": "c138fe44-a67a-4209-92b7-dcec265d1647",
+    "remarks": "汇丰银行，花旗中国个人业务收购方，36亿美元"
+  },
+  {
+    "abbreviation": "SDN",
+    "fullName": "Special Designed Nationals and Blocked Persons. ",
+    "id": "375a40d9-a034-4523-b55f-e0f4452d7c92",
+    "remarks": "在SDN list里面的国家和个人的账户，无法转账"
+  },
+  {
+    "abbreviation": "MTS",
+    "fullName": "Mobile/Minimal Testing Suit",
+    "id": "f1720780-357f-441e-bce9-9baea5b14e26",
+    "remarks": "上线之前需要通过MTS, specific binary related VA testing scope"
+  },
+  {
+    "abbreviation": "XSS",
+    "fullName": "Cross-site scripting ",
+    "id": "1fae40c9-5a8b-4367-8d10-74015ff0b84e",
+    "remarks": "跨站点脚本攻击"
+  },
+  {
+    "abbreviation": "CORS",
+    "fullName": "Cross-Origin Resource Sharing ",
+    "id": "9b59d0c8-2d15-4bbe-9066-9a9208fe51f2",
+    "remarks": "跨域资源共享"
+  },
+  {
+    "abbreviation": "WAF",
+    "fullName": "Web Application Firewall",
+    "id": "a27ae75c-dd73-419a-80f0-312cf8030428",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CSD",
+    "fullName": "Content Specification Documents",
+    "id": "02944232-b2f4-4795-8afc-2dd8e27f3c02",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SPOC",
+    "fullName": "Single point of contact",
+    "id": "9aab47ba-6a53-4086-b9d5-05c77241e599",
+    "remarks": null
+  },
+  {
+    "abbreviation": "TSA",
+    "fullName": "Transation service assistant",
+    "id": "4d71cd9c-c52b-4b1a-8471-53ab71d33c61",
+    "remarks": null
+  },
+  {
+    "abbreviation": "OWASP",
+    "fullName": "Open Web Application Security Project",
+    "id": "b87040ad-4adb-4482-b698-19cbb142b56c",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CWE",
+    "fullName": "Common Weakness Enumeration",
+    "id": "8961e56d-93d3-41d8-859f-85bd588ee4fc",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CVM",
+    "fullName": "Component Vulnerbility Management - platform",
+    "id": "2f4b0c25-54fc-4f27-8c41-c512ff53c897",
+    "remarks": "管理的开源框架的漏洞管理及升级相关的事项"
+  },
+  {
+    "abbreviation": "DSM",
+    "fullName": "Digital Sales and Marketing",
+    "id": "ce5612e4-413b-49eb-af00-9fc596cd236c",
+    "remarks": null
+  },
+  {
+    "abbreviation": "VC",
+    "fullName": "Venture Capital",
+    "id": "d6a91a49-3921-4f62-9368-84671a61748c",
+    "remarks": "风险投资"
+  },
+  {
+    "abbreviation": "RCR",
+    "fullName": "Release change request ",
+    "id": "f75e8bb3-6d16-45f9-adf6-851576168a0d",
+    "remarks": "如果某个OPPM在某一个release上不去了，换到了别的release，biz需要提RCR\nIt is used when most of the work is done, and some minor changes only needed"
+  },
+  {
+    "abbreviation": "COB testing",
+    "fullName": "Continue of business ",
+    "id": "497de23d-196c-4e67-a946-ed1c9d7f3630",
+    "remarks": "灾备测试"
+  },
+  {
+    "abbreviation": "BSB ",
+    "fullName": "Bank-State-Branch ",
+    "id": "93e3e4ef-e2bf-42bd-9fff-81ee238563f1",
+    "remarks": "银行州分行 6位数字用来标记一个银行分支机构（网点）"
+  },
+  {
+    "abbreviation": "PRA",
+    "fullName": "Production Readiness Assessment",
+    "id": "8d9f0dbe-d658-4d8f-94ce-28ca1c6a7b40",
+    "remarks": "cutover之前的一个流程，需要跟PS team过一下我们都改了什么，high level go through"
+  },
+  {
+    "abbreviation": "FUT",
+    "fullName": "Friendly User Testing ",
+    "id": "da28dcd6-85bd-4b84-975b-19449bb99067",
+    "remarks": null
+  },
+  {
+    "abbreviation": "OIDC",
+    "fullName": "OpenID Connection",
+    "id": "fcbdee9f-2955-4586-82b0-aa2424e4db6a",
+    "remarks": " (OpenID Connect (OIDC) is an identity layer built on top of the OAuth 2.0 framework.)"
+  },
+  {
+    "abbreviation": "W8BEN",
+    "fullName": "Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding and Reporting (Individuals)",
+    "id": "1c454202-585b-4371-b193-b350643a5145",
+    "remarks": "美国预扣税和申报的受益所有人的外国身份证明（个人），每次申报有一个表达需要填写"
+  },
+  {
+    "abbreviation": "Edward Jones",
+    "fullName": "",
+    "id": "2e6d8d4b-66d1-415b-a91d-2cb04dbd2a2c",
+    "remarks": "Edward Jones is a financial services firm headquartered in St. Louis, Missouri, United States. It serves investment clients in the U.S. and Canada"
+  },
+  {
+    "abbreviation": "PBOC",
+    "fullName": "Person's Bank Of China",
+    "id": "a69c2fdf-f000-4270-827c-9d7cc28ee084",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SEW",
+    "fullName": "Software estimation worksheet",
+    "id": "1127d75a-6596-4429-ade3-f0f285157d3c",
+    "remarks": null
+  },
+  {
+    "abbreviation": "WR",
+    "fullName": "Work Request ",
+    "id": "1d76f1db-6a65-4ec0-8657-7b81ada88dab",
+    "remarks": "Each Project has it's own WR"
+  },
+  {
+    "abbreviation": "eSMS",
+    "fullName": "eclipse service management system",
+    "id": "2f1e9667-6c24-4df6-9f86-29abf4ced9d8",
+    "remarks": null
+  },
+  {
+    "abbreviation": "BRD",
+    "fullName": "Business Requirement Document",
+    "id": "ecf18e53-1f8a-4901-bc9b-b5b684ab9d81",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SGFinDex",
+    "fullName": "Singapore Financial Data Exchange",
+    "id": "012f1f5b-59b7-402d-9df5-123e095af483",
+    "remarks": null
+  },
+  {
+    "abbreviation": "RASP",
+    "fullName": "Runtime Application Self-protection",
+    "id": "f5011c6e-3bdc-4947-b9e6-9a34a775d2a6",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CAP",
+    "fullName": "Continual / Correction Action Plan",
+    "id": "8b04bd58-d68f-4175-9fdd-9577bbd73264",
+    "remarks": "CAP Inclusion:\n• Scope : Components in CIOC report & Remediation date falls beyond the EOVS Date\nTimeline : One EOVS CAP per year\nOwner : S&S head (Digital / CPB) / API head (API)\n• Out of Scope: Components with Vulnerable/Restricted/Prohibited but not EOVS InfoSec project\n• Milestones: One milestone for each Quarter"
+  },
+  {
+    "abbreviation": "ASD",
+    "fullName": "Agile Scope Document",
+    "id": "f20fe4a8-3b7f-4452-bad4-fef6aa2bd1e5",
+    "remarks": null
+  },
+  {
+    "abbreviation": "ADA",
+    "fullName": "Account Details and Activity",
+    "id": "4f074e1a-4b72-4508-93d1-058ba11f5b47",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SDET",
+    "fullName": "Software Development Engineer in Test",
+    "id": "53643971-09b9-4708-bc82-1918eb3872db",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CCO",
+    "fullName": "Chief Commercial officer ",
+    "id": "4f34ef18-8776-47ab-b048-df86cc2a704a",
+    "remarks": "首席商务官"
+  },
+  {
+    "abbreviation": "OPEC",
+    "fullName": "Organization of the Petroleum Exporting Countries ",
+    "id": "665f9ef3-4e52-4a5c-ae0a-bd0db94ac74b",
+    "remarks": "石油输出国组织"
+  },
+  {
+    "abbreviation": "RMO",
+    "fullName": "Record Management Officer",
+    "id": "812ce391-1078-483d-83a6-0c217030cdce",
+    "remarks": null
+  },
+  {
+    "abbreviation": "PIL",
+    "fullName": "Personal Installment Loan",
+    "id": "e80ca460-0a97-43c1-aa19-2edca8d26342",
+    "remarks": "个人分期贷款"
+  },
+  {
+    "abbreviation": "SAST",
+    "fullName": "Static Application Security Testing",
+    "id": "83a1d006-aa8d-46c9-909a-ef54163f98d0",
+    "remarks": "静态应用安全测试（源代码分析测试）"
+  },
+  {
+    "abbreviation": "DVP",
+    "fullName": "Digital Value Proposition\nDelivery Versus Payment",
+    "id": "4da35ab5-ae13-49fb-b838-7f1b4a88b105",
+    "remarks": "Digital Value Proposition - 一种高级customer类型\nDelivery Versus Payment - 付款交割"
+  },
+  {
+    "abbreviation": "RAO",
+    "fullName": "Remote Account Opening",
+    "id": "e35b5666-ebdc-4545-a4da-402f3029f0c0",
+    "remarks": null
+  },
+  {
+    "abbreviation": "ISO",
+    "fullName": "Information Security Officer\nInternational Standards Organisation",
+    "id": "f9dc8316-28e2-46fd-b464-9802b015d984",
+    "remarks": "Information Security Officer - 信息安全官员的缩写，负责公司的信息安全工作\nInternational Standards Organisation - 国际标准化组织"
+  },
+  {
+    "abbreviation": "BYOD",
+    "fullName": "Bring your own device",
+    "id": "c11338da-e2a5-4b92-a0d9-37eedd287dcd",
+    "remarks": null
+  },
+  {
+    "abbreviation": "MFA",
+    "fullName": "Multi-Factor Authentication ",
+    "id": "c41f24ab-5d04-4047-b97c-92908d42ded1",
+    "remarks": "多重身份认证"
+  },
+  {
+    "abbreviation": "SAM",
+    "fullName": "Suspicious Activity Management ",
+    "id": "ac6efeda-b352-474b-bb18-a6655a051ba1",
+    "remarks": "可疑活动管理"
+  },
+  {
+    "abbreviation": "FTE",
+    "fullName": "Full Time Employee",
+    "id": "f380b4cf-9132-4aa9-a4e1-47f4f2078206",
+    "remarks": null
+  },
+  {
+    "abbreviation": "LV",
+    "fullName": "Legal Vehicle ",
+    "id": "fff56be6-dc3f-4642-b792-ddb7035a4aef",
+    "remarks": "用在转账业务上可以翻译成：合法媒介"
+  },
+  {
+    "abbreviation": "GT",
+    "fullName": "Global Transact",
+    "id": "117cc297-3bb2-45de-9da0-080e0adfca71",
+    "remarks": null
+  },
+  {
+    "abbreviation": "TMX",
+    "fullName": "threat metrix",
+    "id": "862f6ffb-79f7-4fae-97f3-1077e212f50c",
+    "remarks": null
+  },
+  {
+    "abbreviation": "RBA",
+    "fullName": "Risk Based Authentication",
+    "id": "5ba80047-728f-4961-a25b-bf0ef4f2575b",
+    "remarks": null
+  },
+  {
+    "abbreviation": "IS",
+    "fullName": "Infra Security",
+    "id": "c94460ef-ff0f-438c-a489-fca3be86599c",
+    "remarks": null
+  },
+  {
+    "abbreviation": "IBAN",
+    "fullName": "International Bank Account Number",
+    "id": "4133f948-3ec4-428e-9f47-4b38af74be03",
+    "remarks": null
+  },
+  {
+    "abbreviation": "GA",
+    "fullName": "Global Authentication",
+    "id": "eedc9041-2a69-4f4c-812d-1f9f1a8c4f8a",
+    "remarks": null
+  },
+  {
+    "abbreviation": "RPA",
+    "fullName": "Robotic Process Automation",
+    "id": "5f7089c3-4349-4879-b829-f683912528d3",
+    "remarks": "机器人流程自动化"
+  },
+  {
+    "abbreviation": "RAG",
+    "fullName": "Retrieval Augmented Generation ",
+    "id": "6ce569ca-9297-4197-a70d-3ab4fe6dcadc",
+    "remarks": "检索增强生成"
+  },
+  {
+    "abbreviation": "GOC",
+    "fullName": "Global Organization Code",
+    "id": "5792e840-edab-443e-b1c9-621786440734",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CER",
+    "fullName": "Change Excellence Review",
+    "id": "d7df8698-2e2b-49f2-ba76-a3bffa491632",
+    "remarks": null
+  },
+  {
+    "abbreviation": "RNN",
+    "fullName": "Recurrent Neural Networks",
+    "id": "526a1247-d2da-4535-bfcd-51cf69864b2e",
+    "remarks": "循环神经网络"
+  },
+  {
+    "abbreviation": "AST",
+    "fullName": "Automated Security Testing",
+    "id": "b2f90df1-0591-4e69-88f6-7db3419cfad1",
+    "remarks": null
+  },
+  {
+    "abbreviation": "MCD",
+    "fullName": "Mobile Check Deposit\nMalicious Code Detection",
+    "id": "0d13d4b1-4682-4555-83da-c242dbe569c1",
+    "remarks": "移动支票存款 -  GFT的一个模块\n恶意代码检测"
+  },
+  {
+    "abbreviation": "TCOE",
+    "fullName": "Technology Center of Excellence ",
+    "id": "d285451e-89a7-4dd7-a742-10d52ec7d267",
+    "remarks": null
+  },
+  {
+    "abbreviation": "EFD",
+    "fullName": "Enterprise Fraud Detection",
+    "id": "48631098-6dd2-485e-947e-6381252d599e",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SIRT",
+    "fullName": "Information Security Incident",
+    "id": "2c9da7c4-802b-4e0f-80f9-130012c1b877",
+    "remarks": null
+  },
+  {
+    "abbreviation": "VOP",
+    "fullName": "Visibility of Payee globally",
+    "id": "f1cf7448-12d9-4459-aea2-f83c45ddaa5c",
+    "remarks": null
+  },
+  {
+    "abbreviation": "SI",
+    "fullName": "Standard Instruction",
+    "id": "c1f34289-cb1b-4609-b0a8-50de31f5f8ac",
+    "remarks": "Payment domain knowledge - 设置以后某一天转账"
+  },
+  {
+    "abbreviation": "SMB",
+    "fullName": "Service Markets Banking",
+    "id": "30f80d82-6bb0-4c0d-90fc-fd9a18044707",
+    "remarks": "new name of ICG"
+  },
+  {
+    "abbreviation": "EOVS",
+    "fullName": "End of Vendor Support",
+    "id": "93122cb1-431c-4386-a3f2-6dd714a896c2",
+    "remarks": "供应商支持结束\nEOVS Tracking\n• Planning\nScope & Go To Version: Component list in CIOC report Owner : EOVS management team\nRemediation Timeline: Within CAP milestone Owner: EOVS management team\nEffort: Shared by Domain/Infra and confirmed by EOVS management team Owner: EOVS management team/Domain\n• Period: 3 ~ 4 times / year\n\nApplication Side EOVS SPOC Roles & Responsibilities:\nCo-ordination work with EOVS management, Application teams in the planning phase\n• Co-ordination with Application team, PMOs, EOVS team in implementation phase\n• Component remediation tracking\n• Resource tracking\n• CAP Milestones tracking\n• To clarify queries if any from App, CTI, PMOs, EOVS management\n• Join Weekly meetings of S&S Governance call to represent the team\n• Join PMO calls for the projects when"
+  },
+  {
+    "abbreviation": "PIPL",
+    "fullName": "Personal Information Protection Law",
+    "id": "5ccb8538-9805-4c1d-84b3-6fc4321e32cd",
+    "remarks": "个人信息保护法"
+  },
+  {
+    "abbreviation": "GDMGO",
+    "fullName": "Group Decision Making and Governance Office",
+    "id": "5806054a-b42b-4946-af0e-8bf6dae6bb7e",
+    "remarks": "集团决策与治理办公室"
+  },
+  {
+    "abbreviation": "SSO",
+    "fullName": "Single Sign On",
+    "id": "e5ede894-c275-4907-b3c7-c31bee477d86",
+    "remarks": "单点登录"
+  },
+  {
+    "abbreviation": "EDP",
+    "fullName": "Electronic Default Payment",
+    "id": "c9eaef13-ea6e-478c-92a7-8e437a5b95f9",
+    "remarks": null
+  },
+  {
+    "abbreviation": "IR",
+    "fullName": "Investment Requirement",
+    "id": "b5a31cc3-db5b-44b5-9465-2b64dd623466",
+    "remarks": "one IR can included multiple WR"
+  },
+  {
+    "abbreviation": "LDAP",
+    "fullName": "Lightweight Directory Access Protocol",
+    "id": "1b524605-2f89-4855-bef6-dfe1113493ef",
+    "remarks": "轻量级目录访问协议"
+  },
+  {
+    "abbreviation": "AI",
+    "fullName": "Artificial intelligence",
+    "id": "179a1b4c-3d9f-42bd-a73e-a15f6ffcd817",
+    "remarks": "人工智能"
+  },
+  {
+    "abbreviation": "ML",
+    "fullName": "Machine Learning",
+    "id": "86a157f1-914d-4596-8c09-0297c56eea56",
+    "remarks": "机器学习\nThe subset of AI that derives representations or inferences from data without explicitly programming every parameter representation or computer step."
+  },
+  {
+    "abbreviation": "GenAI",
+    "fullName": "Generative AI",
+    "id": "9ef38bd0-3820-459e-9bb0-0929ce1a5127",
+    "remarks": "生成式人工智能\nA subset of AI, is a type of Artificial Intelligence that creates new content, such as images, text, audio, video, code based on their training data and in response to prompts. "
+  },
+  {
+    "abbreviation": "LLM",
+    "fullName": "Large Language Model",
+    "id": "dcf611ff-909c-45c2-b18d-36e5535063b9",
+    "remarks": "大语言模型\nA type of AI that is designed to process natural language, audio, video, images etc. "
+  },
+  {
+    "abbreviation": "GPAI",
+    "fullName": "General-purpose AI",
+    "id": "f251aa56-9a7a-45c0-9a42-9228eca69a11",
+    "remarks": "通用人工智能"
+  },
+  {
+    "abbreviation": "EUC",
+    "fullName": "End User Computing",
+    "id": "1b6bb537-6864-4ae9-adbf-475184b0e9e9",
+    "remarks": "最终用户计算"
+  },
+  {
+    "abbreviation": "CIOC",
+    "fullName": "Chief Information Officer Council",
+    "id": "27d62164-0598-4c1d-8cea-34ccd47d1fbf",
+    "remarks": "首席信息官委员会"
+  },
+  {
+    "abbreviation": "AI CoE",
+    "fullName": "Artificial Intelligence Center of Excellence",
+    "id": "b2073e56-d9bc-4c7b-b62a-c3f662609f41",
+    "remarks": "花旗人工智能卓越中心"
+  },
+  {
+    "abbreviation": "TPM",
+    "fullName": "Third Party Management\nTechnical Project Manager",
+    "id": "beb305df-f2e4-4590-9cd4-ca7aab37b33f",
+    "remarks": null
+  },
+  {
+    "abbreviation": "CRMF",
+    "fullName": "Compliance Risk Management Framework",
+    "id": "71b7aeb5-4757-447b-b231-9a9f8ed977cc",
+    "remarks": "合规风险管理框架"
+  },
+  {
+    "abbreviation": "RM",
+    "fullName": "Relationship Management",
+    "id": "47d00e88-d8d4-4fd2-a40a-5807832e6572",
+    "remarks": "the name of a host team"
+  },
+  {
+    "abbreviation": "JANA",
+    "fullName": "Japan, North Asia and Australia",
+    "id": "8d1621d5-1ef8-4fce-9251-15e5b1a2cc62",
+    "remarks": "花旗日本、北亚和澳大利亚"
+  },
+  {
+    "abbreviation": "BDD",
+    "fullName": "Behavior-driven development",
+    "id": "8c7d1643-3245-4fb5-885d-1d976d6bfc3d",
+    "remarks": "行为驱动的开发"
+  },
+  {
+    "abbreviation": "TDD",
+    "fullName": "Test-Driven Development",
+    "id": "8487110b-563c-4698-92ca-aa808128c7d3",
+    "remarks": "测试驱动开发"
+  },
+  {
+    "abbreviation": "FDD",
+    "fullName": "Feature-Driven Development",
+    "id": "cd244248-0fc5-4cca-ac0f-8f8dd12c5c09",
+    "remarks": "功能驱动开发"
+  },
+  {
+    "abbreviation": "ATDD",
+    "fullName": "Acceptance Test Driven Development",
+    "id": "1301e863-560b-4d47-8f41-9add7425da45",
+    "remarks": "验收测试驱动开发"
+  },
+  {
+    "abbreviation": "VCS",
+    "fullName": "Version Control System",
+    "id": "6a53f6af-8358-4ab2-bf55-84d8c6087dbb",
+    "remarks": "版本控制/管理系统"
+  },
+  {
+    "abbreviation": "XSD",
+    "fullName": "XML Schema Definition",
+    "id": "deb21f4a-40c2-4aad-96c2-d0f8b6f659be",
+    "remarks": "用来定一个API request and response的XML文件"
+  },
+  {
+    "abbreviation": "CI",
+    "fullName": "Credit Initiation",
+    "id": "a37b9f7e-b957-4a31-9e8e-5d1974ae6a1a",
+    "remarks": "信用卡开卡和贷款相关的业务host"
+  },
+  {
+    "abbreviation": "CTA",
+    "fullName": "Call To Action",
+    "id": "2bb19c19-e76b-4f0d-8e61-8b4155ecf204",
+    "remarks": "Call To Action (CTA) is a button or link in a website or email prompting readers to click to complete a specific action based on its message like to make a call, purchase, subscribe, download, and so on."
+  },
+  {
+    "abbreviation": "CICD",
+    "fullName": "Continuous Integration, Continuous Delivery",
+    "id": "3e093ed4-5b99-41b7-a548-711f4b724f59",
+    "remarks": "持续集成 和 持续交付"
+  },
+  {
+    "abbreviation": "XJC",
+    "fullName": "XML Schema to Java Compiler",
+    "id": "08302d75-c09d-40d2-914f-b3e324604473",
+    "remarks": "A technical term, which is a converter to convert from xml to java"
+  },
+  {
+    "abbreviation": "FIN",
+    "fullName": "Foreigners Identification Number",
+    "id": "e5f22b64-7455-4a3b-bbb7-596ff345391b",
+    "remarks": "a kind of SG MyInfo account type"
+  },
+  {
+    "abbreviation": "ICRM",
+    "fullName": "Independent Compliance Risk Management",
+    "id": "cc9b263d-3834-4a83-832f-f9307b51e99a",
+    "remarks": "独立合规风险管理"
+  },
+  {
+    "abbreviation": "AB&C",
+    "fullName": "Anti-Bribery & Corruption",
+    "id": "33802663-1e44-43bc-b922-8d5d830abe02",
+    "remarks": "反贿赂与腐败"
+  },
+  {
+    "abbreviation": "ABPA",
+    "fullName": "Anti-Bribery Pre-Approval",
+    "id": "7d1938ab-7c31-4011-b47b-b6db119d0299",
+    "remarks": "反贿赂预先批准"
+  },
+  {
+    "abbreviation": "EST",
+    "fullName": "Eastern Standard Time",
+    "id": "0a3996d3-36ef-4501-b339-727a2fe9d6f7",
+    "remarks": "东部标准时间 UTC-5"
+  },
+  {
+    "abbreviation": "SST",
+    "fullName": "Singapore Standard Time",
+    "id": "1aa986e9-c0ad-43f6-9511-cb245e4b6f99",
+    "remarks": "新加坡标准时间 UTC+8"
+  },
+  {
+    "abbreviation": "EOD",
+    "fullName": "end of day",
+    "id": "6bdd9561-da45-4f53-ad48-2edbef0202bc",
+    "remarks": "EOD stands for “end of day.” It’s used to set a deadline for a task that should be complete by the end of the business day -- typically 5:00 PM. When no time zone is provided, end of day is relative to the sender’s time zone."
+  },
+  {
+    "abbreviation": "COB",
+    "fullName": "Close of Business\nContinue of Business",
+    "id": "cc85394e-c665-4945-96b8-ea029da8c403",
+    "remarks": "COB stands for “close of business.” It refers to the end of a business day and the close of the financial markets in New York City, which define U.S. business hours. It’s used in business communications to set a deadline for a task to be completed by 5:00 PM Eastern Standard Time (EST).\n\nContinue of Business - 业务连续性"
+  },
+  {
+    "abbreviation": "TISO",
+    "fullName": "Technical Information Security Officer",
+    "id": "c9e1a91b-da31-4bcf-a7c3-46f8f736408d",
+    "remarks": "技术信息安全官\nRelavent words: BISO"
+  },
+  {
+    "abbreviation": "BISO",
+    "fullName": "Business Information Security Officer",
+    "id": "f44a9882-7bb2-4fca-8ea2-b303b460cd98",
+    "remarks": "业务信息安全官"
+  },
+  {
+    "abbreviation": "BASE",
+    "fullName": "Business Aligned Security Executive",
+    "id": "764b725f-9a0b-4487-9101-83e7bb61cee1",
+    "remarks": "业务一致的安全主管"
+  },
+  {
+    "abbreviation": "QUEST",
+    "fullName": "Quality Engineering & Services Team",
+    "id": "4dff534e-53b9-4f98-9c3b-1aff0694b255",
+    "remarks": "The alternative name of the testing team"
+  },
+  {
+    "abbreviation": "DDD",
+    "fullName": "Domain Driven Design\nDeadline-Driven Development",
+    "id": "9e22c733-8c28-4990-9689-9d2e3a3a7b71",
+    "remarks": "Domain Driven Design - 领域驱动设计\nDeadline-Driven Development - 截止时间驱动开发"
+  },
+  {
+    "abbreviation": "CAO",
+    "fullName": "Chief Accounting Officer",
+    "id": "8b41462b-b157-4d82-8497-fc97615db1bc",
+    "remarks": "首席会计官"
+  },
+  {
+    "abbreviation": "FDIC",
+    "fullName": "Federal Deposit Insurance Corporation",
+    "id": "7016863b-f5e4-417a-8fb2-b68fda97f285",
+    "remarks": "联邦存款保险公司"
+  },
+  {
+    "abbreviation": "AEST",
+    "fullName": "Australian Eastern Standard Time",
+    "id": "7074f5d8-1cae-46c3-9311-b9b41c478f94",
+    "remarks": "澳大利亚东部标准时间 (UTC +10)\nRelated Words: EST, SST"
+  },
+  {
+    "abbreviation": "NTB",
+    "fullName": "New to Bank",
+    "id": "df426abe-4291-4397-9040-fd7f4e2d7d3a",
+    "remarks": "银行的新用户"
+  },
+  {
+    "abbreviation": "IC",
+    "fullName": "Investment Counselling Portfolio",
+    "id": "147d4214-2dc4-44d1-bf94-0f6ab20082d3",
+    "remarks": "投资咨询组合\nrelated words: \nIC - Investment Counselling Portfolio \nDP - Discretionary Portfolio \nCA - Custody Account \nGC - Global Custody \nIA - IAS Portfolio \nID - IAS DP Portfolio \nTR - TRASPASOS Portfolio "
+  },
+  {
+    "abbreviation": "DP",
+    "fullName": "Discretionary Portfolio ",
+    "id": "903edba4-a879-4afc-9d20-25d2157fa14d",
+    "remarks": "全权投资组合\nIC - Investment Counselling Portfolio \nDP - Discretionary Portfolio \nCA - Custody Account \nGC - Global Custody \nIA - IAS Portfolio \nID - IAS DP Portfolio \nTR - TRASPASOS Portfolio "
+  },
+  {
+    "abbreviation": "CA",
+    "fullName": "Custody Account",
+    "id": "312516af-195a-41fe-949e-37d9c31afdc9",
+    "remarks": "托管账户\nrelated words: \nIC - Investment Counselling Portfolio \nDP - Discretionary Portfolio \nCA - Custody Account \nGC - Global Custody \nIA - IAS Portfolio \nID - IAS DP Portfolio \nTR - TRASPASOS Portfolio "
+  },
+  {
+    "abbreviation": "GC",
+    "fullName": "Global Custody",
+    "id": "8d6e1933-4eee-425e-b0b0-b0cd5d097602",
+    "remarks": "全球托管\nrelated words: \nIC - Investment Counselling Portfolio \nDP - Discretionary Portfolio \nCA - Custody Account \nGC - Global Custody \nIA - IAS Portfolio \nID - IAS DP Portfolio \nTR - TRASPASOS Portfolio "
+  },
+  {
+    "abbreviation": "IA",
+    "fullName": "IAS Portfolio ",
+    "id": "aec36457-53b6-46c1-a0f0-97d3fb664e57",
+    "remarks": "IAS 产品组合\nrelated words: \nIC - Investment Counselling Portfolio \nDP - Discretionary Portfolio \nCA - Custody Account \nGC - Global Custody \nIA - IAS Portfolio \nID - IAS DP Portfolio \nTR - TRASPASOS Portfolio "
+  },
+  {
+    "abbreviation": "IAS",
+    "fullName": "International Accounting Standards",
+    "id": "dc4ccce4-6e30-4682-9da4-d35bd92345a7",
+    "remarks": "国际会计准则"
+  },
+  {
+    "abbreviation": "ID",
+    "fullName": "IAS DP Portfolio",
+    "id": "30534d15-1468-40b6-964f-d7b703e1c492",
+    "remarks": "IAS DP 投资组合\nrelated words: \nIC - Investment Counselling Portfolio \nDP - Discretionary Portfolio \nCA - Custody Account \nGC - Global Custody \nIA - IAS Portfolio \nID - IAS DP Portfolio \nTR - TRASPASOS Portfolio "
+  },
+  {
+    "abbreviation": "TR",
+    "fullName": "TRASPASOS Portfolio",
+    "id": "bdad7a33-ea7f-436c-a3f4-691bb81a99f6",
+    "remarks": "投资组合转让"
+  },
+  {
+    "abbreviation": "p.a.",
+    "fullName": "Per Annum",
+    "id": "5fd95dd6-998f-46d8-a56a-51f022230d93",
+    "remarks": "通常用在按照每年计算费用的信贷产品"
+  },
+  {
+    "abbreviation": "MIT",
+    "fullName": "Massachusetts Institute of Technology",
+    "id": "9afe6987-b7ec-49d3-aee6-33c57f4d177d",
+    "remarks": "麻省理工学院，以其科学技术培训和研究而闻名。\nMIT 许可证是一种宽松的软件许可证，起源于 20 世纪 80 年代末的麻省理工学院 (MIT)。\n作为一种宽松的许可证，它对重用几乎没有限制，因此具有很高的许可证兼容性。\nMIT 许可证是 GitHub 上最受欢迎的软件许可证。"
+  },
+  {
+    "abbreviation": "ACF",
+    "fullName": "AutoCorrelation Function",
+    "id": "58f9d2e9-421c-4042-8a01-bfc852a39a27",
+    "remarks": "自相关函数"
+  },
+  {
+    "abbreviation": "AD",
+    "fullName": "Authorised Dealer\nActive Directory",
+    "id": "7c10458f-6d3e-4bd0-b027-d78d08843cc1",
+    "remarks": "授权经销商\n活动目录"
+  },
+  {
+    "abbreviation": "ADB",
+    "fullName": "Asian Development Bank",
+    "id": "1525ceed-d125-4a8c-8110-7fcb5754f6a6",
+    "remarks": "亚洲开发银行"
+  },
+  {
+    "abbreviation": "ADR",
+    "fullName": "American Depository Receipt",
+    "id": "4fe7631d-6af0-46ce-948f-a840e09bbb46",
+    "remarks": "美国存托凭证"
+  },
+  {
+    "abbreviation": "AFS",
+    "fullName": "Annual Financial Statement",
+    "id": "ccd99759-a084-4989-b163-bc6a9eb4164d",
+    "remarks": "年度财务报表"
+  },
+  {
+    "abbreviation": "AIRCSC",
+    "fullName": "All India Rural Credit Survey Committee",
+    "id": "e7c557ae-a52b-43e4-8414-d5d9e4d0d7ad",
+    "remarks": "全印度农村信贷调查委员会"
+  },
+  {
+    "abbreviation": "ASSOCHAM",
+    "fullName": "Associated Chambers of Commerce and Industry of India",
+    "id": "a1c590b0-35ce-4f4a-b6f8-b5bb890c39f6",
+    "remarks": "印度工商联合会"
+  },
+  {
+    "abbreviation": "BIS",
+    "fullName": "Bank for International Settlements",
+    "id": "dd497f17-f3f1-4323-9874-7a8608ac0cfa",
+    "remarks": "国际清算银行"
+  },
+  {
+    "abbreviation": "BoP",
+    "fullName": "Balance of Payments",
+    "id": "a9aed35d-ba24-4ed4-b204-868a94932e0d",
+    "remarks": "国际收支平衡"
+  },
+  {
+    "abbreviation": "BSCS",
+    "fullName": "Basel Committee of Banking Supervision",
+    "id": "59b5418d-6867-4897-a731-646ab6f60085",
+    "remarks": "巴塞尔银行监管委员会"
+  },
+  {
+    "abbreviation": "BSR",
+    "fullName": "Basic Statistical Returns",
+    "id": "8c4c55f9-3308-4f8d-b7b5-f62699fac561",
+    "remarks": "基本统计报表"
+  },
+  {
+    "abbreviation": "CAD",
+    "fullName": "Capital Account Deficit",
+    "id": "2e38a554-25bf-4ecf-96d5-c62648dc5a22",
+    "remarks": "资本账户赤字"
+  },
+  {
+    "abbreviation": "CAG",
+    "fullName": "Controller and Auditor General of India",
+    "id": "77289b9b-415d-431e-b3f8-0966af2f9afa",
+    "remarks": "印度审计总署"
+  },
+  {
+    "abbreviation": "CC",
+    "fullName": "Cash Credit",
+    "id": "5327ee50-df0b-4e4a-92d2-1cd4461c67f5",
+    "remarks": "现金信贷"
+  },
+  {
+    "abbreviation": "CD",
+    "fullName": "Certificate of Deposit",
+    "id": "c932a646-cbf4-4982-9f29-22e882d65d36",
+    "remarks": "存单"
+  },
+  {
+    "abbreviation": "CR Ratio",
+    "fullName": "Credit Deposit Ratio",
+    "id": "1f7bf33a-26e2-4a50-b2ba-a8f68e514bd8",
+    "remarks": "信贷存款比率"
+  },
+  {
+    "abbreviation": "CF",
+    "fullName": "Company Finance",
+    "id": "b49c9587-2c27-4bdd-b143-614af0e6be94",
+    "remarks": "公司财务"
+  },
+  {
+    "abbreviation": "CFRA",
+    "fullName": "Combined Finance and Revenue Accounts",
+    "id": "3fb1772d-a5d9-4a24-aae9-ed689d790f8a",
+    "remarks": "综合财务和收入账户"
+  },
+  {
+    "abbreviation": "CGRA",
+    "fullName": "Currency and Gold Revaluation Account",
+    "id": "b7e74adc-8c6a-4e0e-86d4-86f5ce1637bf",
+    "remarks": "货币和黄金重估账户"
+  },
+  {
+    "abbreviation": "CII",
+    "fullName": "Confederation of Indian Industry",
+    "id": "15100e78-c56b-4a1e-886e-b931940117da",
+    "remarks": "印度工业联合会"
+  },
+  {
+    "abbreviation": "CO",
+    "fullName": "Capital Outlay",
+    "id": "1169832f-394f-41e5-a856-84317fc7db07",
+    "remarks": "资本支出"
+  },
+  {
+    "abbreviation": "CP",
+    "fullName": "Commercial Paper",
+    "id": "2b57c266-59bb-403b-9645-33766aa73ce2",
+    "remarks": "商业票据"
+  },
+  {
+    "abbreviation": "CPI",
+    "fullName": "Consumer Price Index",
+    "id": "b675277c-22f2-4754-86ee-616dc9d9b0f2",
+    "remarks": "消费者价格指数"
+  },
+  {
+    "abbreviation": "CR",
+    "fullName": "Capital Receipts",
+    "id": "6ea96ac4-f019-4aa8-a315-c77c220aa7e2",
+    "remarks": "资本收入"
+  },
+  {
+    "abbreviation": "CRAR",
+    "fullName": "Capital to Risk-Weighted Asset Ratio",
+    "id": "98025ecf-4b1d-4f62-9122-4dae2977d125",
+    "remarks": "资本与风险加权资产比率"
+  },
+  {
+    "abbreviation": "CRR",
+    "fullName": "Cash Reserve Ratio",
+    "id": "ec5ee41f-1c7d-485b-b127-908756c7af77",
+    "remarks": "现金准备金率"
+  },
+  {
+    "abbreviation": "DBOD",
+    "fullName": "Department of Banking Operations and Development",
+    "id": "69ef6456-db92-4837-936d-b17f791f7614",
+    "remarks": "银行业务和发展部"
+  },
+  {
+    "abbreviation": "DCB",
+    "fullName": "Demand Collection and Balance",
+    "id": "938eb038-eb19-457a-bf63-dc51c7529f88",
+    "remarks": "需求收集和平衡"
+  },
+  {
+    "abbreviation": "DCCB",
+    "fullName": "District Central Co-operative Bank",
+    "id": "ad234dd7-29eb-4982-a50e-7838a658b7e4",
+    "remarks": "区中央合作银行"
+  },
+  {
+    "abbreviation": "DCM, RBI",
+    "fullName": "Department of Currency Management, RBI",
+    "id": "16c0321a-eaed-4325-a82c-207a073d720c",
+    "remarks": "印度储备银行货币管理部"
+  },
+  {
+    "abbreviation": "DD",
+    "fullName": "Demand Draft",
+    "id": "a9d4553c-549a-480a-a2b1-6f81af9c4d48",
+    "remarks": "汇票"
+  },
+  {
+    "abbreviation": "DEIO",
+    "fullName": "Department of External Investments and Operations",
+    "id": "087fe03a-7f74-4600-8b74-c31a5f01dff1",
+    "remarks": "外部投资和运营部"
+  },
+  {
+    "abbreviation": "DGCI&S",
+    "fullName": "Directorate General of Commercial Intelligence and Statistics",
+    "id": "d145d31e-74dc-43f1-ba64-28d6e7888b9a",
+    "remarks": "商业情报和统计总局"
+  },
+  {
+    "abbreviation": "DI",
+    "fullName": "Direct Investments",
+    "id": "827f1ab0-e2b5-4cea-bcba-e3e6c1876e84",
+    "remarks": "直接投资"
+  },
+  {
+    "abbreviation": "DICGC",
+    "fullName": "Deposit Insurance and Credit Guarantee Corporation of India",
+    "id": "7327ce05-115c-4053-b3bc-852fea39145e",
+    "remarks": "印度存款保险和信贷担保公司"
+  },
+  {
+    "abbreviation": "DID",
+    "fullName": "Discharge of Internal Debt",
+    "id": "2a76b708-047b-4ffa-b486-e762679e4822",
+    "remarks": "内部债务清偿"
+  },
+  {
+    "abbreviation": "DMA",
+    "fullName": "Departmentalized Ministries Account",
+    "id": "11192421-3414-43a2-b37c-4649f2e2c909",
+    "remarks": "部门化部委账户"
+  },
+  {
+    "abbreviation": "DRI",
+    "fullName": "Differential Rate of Interest Scheme",
+    "id": "8725011f-2b5c-4f49-8fc3-8e0bfca3f45e",
+    "remarks": "差别利率计划"
+  },
+  {
+    "abbreviation": "DSBB",
+    "fullName": "Dissemination Standards Bulletin Board",
+    "id": "163b5ef4-c9eb-42f8-a247-23aad3056e67",
+    "remarks": "传播标准公告板"
+  },
+  {
+    "abbreviation": "ECB",
+    "fullName": "External Commercial Borrowing\nEuropean Central Bank",
+    "id": "f26454ad-310f-460f-af26-cf49f0051a10",
+    "remarks": "External Commercial Borrowing - 外部商业借款\nEuropean Central Bank - 欧洲中央银行"
+  },
+  {
+    "abbreviation": "ECGC",
+    "fullName": "Export Credit and Guarantee Corporation",
+    "id": "75d6c7ed-a488-4051-a889-bc5def655745",
+    "remarks": "出口信贷和担保公司"
+  },
+  {
+    "abbreviation": "ECS",
+    "fullName": "Electronic Clearing Scheme",
+    "id": "5208e1c4-a3a1-4a10-acbc-398aaa576654",
+    "remarks": "电子清算计划"
+  },
+  {
+    "abbreviation": "EDMU",
+    "fullName": "External Debt Management Unit",
+    "id": "db2646d1-8211-4ecf-b886-dbd368dc8251",
+    "remarks": "外债管理单位"
+  },
+  {
+    "abbreviation": "EEA",
+    "fullName": "Exchange Equalization Account",
+    "id": "2649f52b-2944-47bf-bd06-e09a9a669743",
+    "remarks": "汇兑平衡账户"
+  },
+  {
+    "abbreviation": "EEC",
+    "fullName": "European Economic Community",
+    "id": "a9d2e275-a586-4fae-b91e-8d52550ec500",
+    "remarks": "欧洲经济共同体"
+  },
+  {
+    "abbreviation": "EEFC",
+    "fullName": "Exchange Earners Foreign Currency",
+    "id": "d7322cf3-21b1-47c7-980f-da671cefe78c",
+    "remarks": "外汇收入外币账户"
+  },
+  {
+    "abbreviation": "EFR",
+    "fullName": "Exchange Fluctuation Reserve",
+    "id": "5d7b2dd3-90ea-4033-b6fd-df62b394c097",
+    "remarks": "汇率波动储备"
+  },
+  {
+    "abbreviation": "EXIM Bank",
+    "fullName": "Export Import Bank of India",
+    "id": "4cef5dde-43bf-445e-8211-6c11fd854e21",
+    "remarks": "印度进出口银行"
+  },
+  {
+    "abbreviation": "FCA",
+    "fullName": "Foreign Currency Assets",
+    "id": "54f1041d-bb27-4fb8-97b1-42eae4848016",
+    "remarks": "外币资产"
+  },
+  {
+    "abbreviation": "FCCB",
+    "fullName": "Foreign Currency Convertible Bond",
+    "id": "43de5687-d59a-48c7-aa4d-997e3d6518f1",
+    "remarks": "外币可转换债券"
+  },
+  {
+    "abbreviation": "FCNRB(B)",
+    "fullName": "Foreign Currency Non- resident (Banks)",
+    "id": "266a26ce-e7cc-46b3-8a99-60d3e6af27f3",
+    "remarks": "外币非居民（银行）"
+  },
+  {
+    "abbreviation": "FCNRA",
+    "fullName": "Foreign Currency Non Resident Account",
+    "id": "479fff82-e0d8-4a5f-aa31-9630749770b7",
+    "remarks": "外币非居民账户"
+  },
+  {
+    "abbreviation": "FCNRD",
+    "fullName": "Foreign Currency Non Repatriable Deposit",
+    "id": "654af579-ccb1-4930-9feb-900e2fa096b7",
+    "remarks": "外币不可汇回存款"
+  },
+  {
+    "abbreviation": "FDI",
+    "fullName": "Foreign Direct Investment",
+    "id": "ca1704db-a060-4dba-897e-92becb216561",
+    "remarks": "外商直接投资"
+  },
+  {
+    "abbreviation": "FEMA",
+    "fullName": "Foreign Exchange Management Act\nFile Event Management Application",
+    "id": "786231d9-e6c2-41a4-bd03-f403b1297e70",
+    "remarks": "外汇管理法\n文件事件管理应用"
+  },
+  {
+    "abbreviation": "FI",
+    "fullName": "Financial Institution",
+    "id": "8a489e01-31de-49e6-8a4e-501ba7f31cd9",
+    "remarks": "金融机构"
+  },
+  {
+    "abbreviation": "FICCI",
+    "fullName": "Federation of Indian Chambers of Commerce and Industry",
+    "id": "69cd5d2d-1e57-4f53-a065-e4ce7bc8c99e",
+    "remarks": "印度工商联合会"
+  },
+  {
+    "abbreviation": "FII",
+    "fullName": "Foreign Institutional Investor",
+    "id": "c39f7684-d3dc-4550-94d6-94ed1ad3363e",
+    "remarks": "外国机构投资者"
+  },
+  {
+    "abbreviation": "FIMMDA",
+    "fullName": "Fixed Income Money Market and Derivatives Association of India",
+    "id": "69e39081-5b0a-4ec6-8961-5f73d27aee72",
+    "remarks": "印度固定收益货币市场和衍生品协会"
+  },
+  {
+    "abbreviation": "FISIM",
+    "fullName": "Financial Intermediation Services Indirectly Measured",
+    "id": "381f8b58-b70d-4b6c-bda8-5d8fc9ddf26f",
+    "remarks": "间接测量的金融中介服务"
+  },
+  {
+    "abbreviation": "FLAS",
+    "fullName": "Foreign Liabilities and Assets Survey",
+    "id": "bfdb1ca2-552e-49d9-940e-e1a3c23524fb",
+    "remarks": "外债和资产调查"
+  },
+  {
+    "abbreviation": "FOF",
+    "fullName": "Flow of Funds",
+    "id": "b834ed92-8a44-47c4-a6e4-ac697296dce9",
+    "remarks": "资金流动"
+  },
+  {
+    "abbreviation": "FPI",
+    "fullName": "Foreign Portfolio Investment",
+    "id": "a54d6e17-8e78-4865-a33d-608e1a5e5c1e",
+    "remarks": "外国证券投资"
+  },
+  {
+    "abbreviation": "FRA",
+    "fullName": "Forward Rate Agreement",
+    "id": "bad4f0fe-1c9a-4943-96da-2028fceb3492",
+    "remarks": "远期利率协议"
+  },
+  {
+    "abbreviation": "FRN",
+    "fullName": "Floating Rate Note",
+    "id": "ced31bb3-1d16-4fe7-830d-579dab2e5e56",
+    "remarks": "浮动利率票据"
+  },
+  {
+    "abbreviation": "GDP",
+    "fullName": "Gross Domestic Product",
+    "id": "12aa13ba-ff41-4267-89e2-8bfd1c1bb8fc",
+    "remarks": "国内生产总值"
+  },
+  {
+    "abbreviation": "GDR",
+    "fullName": "Global Depository Receipt",
+    "id": "47833dcb-e659-4379-a61b-23a5c5c19231",
+    "remarks": "全球存托凭证"
+  },
+  {
+    "abbreviation": "G-Sec",
+    "fullName": "Government Securities",
+    "id": "74e0bc78-c5d8-4039-abb9-e3e960b6fd6e",
+    "remarks": "政府证券"
+  },
+  {
+    "abbreviation": "IBRD",
+    "fullName": "International Bank for Reconstruction and Development",
+    "id": "5c96a536-dd9b-4390-9b2d-4a1d424168c6",
+    "remarks": "国际复兴开发银行"
+  },
+  {
+    "abbreviation": "IDRBT",
+    "fullName": "Institute for Development and Research in Banking Technology",
+    "id": "bc0e674a-0066-4c72-8ad3-7f973c0ae0a9",
+    "remarks": "银行技术开发与研究所"
+  },
+  {
+    "abbreviation": "IEPF",
+    "fullName": "Investors Education and Protection Fund",
+    "id": "c604fe2a-9a36-4da3-9d20-f17c0b130716",
+    "remarks": "投资者教育和保护基金"
+  },
+  {
+    "abbreviation": "IFSC",
+    "fullName": "Indian Financial System Code",
+    "id": "4c8f18c7-0a95-4a0c-9003-5739dc61420b",
+    "remarks": "印度金融系统代码"
+  },
+  {
+    "abbreviation": "IFC",
+    "fullName": "Indian Financial Corporation\nInternational Finance Corporation",
+    "id": "e33507e8-4249-48df-81ba-d006f25708aa",
+    "remarks": "Indian Financial Corporation - 印度金融公司\nInternational Finance Corporation - 国际金融公司"
+  },
+  {
+    "abbreviation": "IFCI",
+    "fullName": "Industrial Finance Corporation of India",
+    "id": "1de7ae6e-a369-46e7-b0e9-3a1b478c1b13",
+    "remarks": "印度工业金融公司"
+  },
+  {
+    "abbreviation": "IIBF",
+    "fullName": "International Institute of Banking and Finance",
+    "id": "d3bdca4f-fb3d-42d8-adb2-b533f500a7c2",
+    "remarks": "国际银行与金融研究所"
+  },
+  {
+    "abbreviation": "IIBI",
+    "fullName": "Industrial Investment Bank of India",
+    "id": "57614bee-8017-46e2-bdc9-58bf0899d0b3",
+    "remarks": "印度工业投资银行"
+  },
+  {
+    "abbreviation": "IFR",
+    "fullName": "Investment Fluctuation Reserve",
+    "id": "1b9306a0-ab1c-4041-947c-181a4c584128",
+    "remarks": "投资波动储备"
+  },
+  {
+    "abbreviation": "IIP",
+    "fullName": "Index of Industrial Production",
+    "id": "91ba4bda-5abf-44ba-8e98-94466eb96d4d",
+    "remarks": "工业生产指数"
+  },
+  {
+    "abbreviation": "IMF",
+    "fullName": "International Monetary Fund",
+    "id": "f6a80387-a164-4e0b-afd2-dea03e3303dc",
+    "remarks": "国际货币基金组织"
+  },
+  {
+    "abbreviation": "IP",
+    "fullName": "Interest Payment",
+    "id": "fcd32137-bfe3-4e81-820b-02a61709b7aa",
+    "remarks": "利息支付"
+  },
+  {
+    "abbreviation": "ISDA",
+    "fullName": "International Swaps and Derivative Association",
+    "id": "97932078-628c-43d7-a98b-a7012f77b546",
+    "remarks": "国际掉期与衍生工具协会"
+  },
+  {
+    "abbreviation": "KYC",
+    "fullName": "Know Your Customer",
+    "id": "b30379c7-22ab-4040-8676-fd89064a3ca3",
+    "remarks": "了解你的客户"
+  },
+  {
+    "abbreviation": "KVP",
+    "fullName": "Kisan Vikas Patra",
+    "id": "c0647d7a-f2db-4f3f-8028-d032bb2b112c",
+    "remarks": "农民发展证书"
+  },
+  {
+    "abbreviation": "KVIC",
+    "fullName": "Khadi and Village Industries Corporation",
+    "id": "e2afc287-53ff-42ca-9d64-a45584aa0006",
+    "remarks": "卡迪和乡村工业公司"
+  },
+  {
+    "abbreviation": "LAF",
+    "fullName": "Liquidity Adjustment Facility",
+    "id": "74853e03-35ae-4b28-8b20-d7b27624e2af",
+    "remarks": "流动性调整工具"
+  },
+  {
+    "abbreviation": "LAS",
+    "fullName": "Loans and Advances by States",
+    "id": "b752996f-39fe-4df3-b9b1-6b28fbf81cbe",
+    "remarks": "各州的贷款和预付款"
+  },
+  {
+    "abbreviation": "LDB",
+    "fullName": "Land Development Bank",
+    "id": "4092b7ce-d213-4cdb-bda4-6c7d00f2020d",
+    "remarks": "土地开发银行"
+  },
+  {
+    "abbreviation": "LERMS",
+    "fullName": "Liberalised Exchange Rate Management System",
+    "id": "e90d009a-2feb-46c4-b09b-defca2666ae8",
+    "remarks": "自由化汇率管理系统"
+  },
+  {
+    "abbreviation": "M1",
+    "fullName": "Narrow Money",
+    "id": "679282a4-c83f-40c7-9ac5-30c948bea2f3",
+    "remarks": "狭义货币"
+  },
+  {
+    "abbreviation": "M3",
+    "fullName": "Broad Money",
+    "id": "119a020e-9266-42fb-a9fb-2b549cb41cf9",
+    "remarks": "广义货币"
+  },
+  {
+    "abbreviation": "MCA",
+    "fullName": "Ministry of Corporate Affairs\nManager's Control Assessment",
+    "id": "e5f0586a-3e98-4bf7-bad2-1a5520a82e01",
+    "remarks": "公司事务部\n经理控制评估"
+  },
+  {
+    "abbreviation": "MIGA",
+    "fullName": "Multilateral Investment Guarantee Agency",
+    "id": "3daab58e-f7d3-4aba-b473-31e324e48fad",
+    "remarks": "多边投资担保机构"
+  },
+  {
+    "abbreviation": "MSS",
+    "fullName": "Market Stabilisation Scheme",
+    "id": "df5f3c17-0a31-4e06-a4c0-bd474810b1ba",
+    "remarks": "市场稳定计划"
+  },
+  {
+    "abbreviation": "NABARD",
+    "fullName": "National Bank for Agriculture and Rural Development",
+    "id": "1ec07cd5-d63c-4e33-ba55-c703582f66bf",
+    "remarks": "国家农业和农村发展银行"
+  },
+  {
+    "abbreviation": "NBFC",
+    "fullName": "Non Banking Financial Companies",
+    "id": "fd33a92a-8582-4979-8f89-6784a594a940",
+    "remarks": "非银行金融公司"
+  },
+  {
+    "abbreviation": "NEC",
+    "fullName": "Not Elsewhere Classified",
+    "id": "3e3d9173-e55b-4080-b7e4-6671909e7aa5",
+    "remarks": "未分类"
+  },
+  {
+    "abbreviation": "NEER",
+    "fullName": "Nominal Effective Exchange Rate",
+    "id": "f05b2953-4661-4e4d-9958-03938ddfa365",
+    "remarks": "名义有效汇率"
+  },
+  {
+    "abbreviation": "NFA",
+    "fullName": "Non Foreign Exchange Assets",
+    "id": "b994f651-13af-4e9c-a65b-c7fb0434d98a",
+    "remarks": "非外汇资产"
+  },
+  {
+    "abbreviation": "NFD",
+    "fullName": "Net Fiscal Deficit",
+    "id": "28c4f996-ee65-463d-ace9-d5b98b4b328b",
+    "remarks": "净财政赤字"
+  },
+  {
+    "abbreviation": "NHB",
+    "fullName": "National Housing Bank",
+    "id": "17f9beda-feea-443b-9e76-4073a15f3b19",
+    "remarks": "国家住房银行"
+  },
+  {
+    "abbreviation": "NIF",
+    "fullName": "Note Issuance Facility",
+    "id": "ca147b36-e706-47b7-930f-bd4e49167784",
+    "remarks": "票据发行工具"
+  },
+  {
+    "abbreviation": "NPA",
+    "fullName": "Non Performing Assets",
+    "id": "333297ee-b902-4814-a354-056dccbdbac8",
+    "remarks": "不良资产"
+  },
+  {
+    "abbreviation": "NPV",
+    "fullName": "Net Present Value",
+    "id": "2319bff4-17cd-4c4e-baec-b2239347da9d",
+    "remarks": "净现值"
+  },
+  {
+    "abbreviation": "NSSF",
+    "fullName": "National Small Savings Fund",
+    "id": "b0683455-512d-4d3f-8c4c-5e990951339d",
+    "remarks": "国家小额储蓄基金"
+  },
+  {
+    "abbreviation": "OD",
+    "fullName": "Overdraft",
+    "id": "91c605cf-587d-40f3-a7f2-4dff6c856816",
+    "remarks": "透支"
+  },
+  {
+    "abbreviation": "OECD",
+    "fullName": "Organisation for Economic Cooperation and Development",
+    "id": "fe763577-3a17-47b9-b464-d921d1a4ddc1",
+    "remarks": "经济合作与发展组织"
+  },
+  {
+    "abbreviation": "OLTAS",
+    "fullName": "Online Tax Accounting System",
+    "id": "c8534ae7-95a4-4fc9-b70b-64d80c3c6e3f",
+    "remarks": "在线税务会计系统"
+  },
+  {
+    "abbreviation": "PACS",
+    "fullName": "Primary Agricultural Credit Societies",
+    "id": "b356ddab-7d73-42ce-acce-8f0df0e09004",
+    "remarks": "初级农业信贷社"
+  },
+  {
+    "abbreviation": "PD",
+    "fullName": "Primary Deficit",
+    "id": "ef504e63-a076-475b-9a0e-a8ec72c5afaf",
+    "remarks": "初级赤字"
+  },
+  {
+    "abbreviation": "RD",
+    "fullName": "Revenue Deficit",
+    "id": "34cfa28d-f3be-4edc-b3ba-22842975ca72",
+    "remarks": "收入赤字"
+  },
+  {
+    "abbreviation": "RE",
+    "fullName": "Revenue Expenditure",
+    "id": "3297af94-ee7f-4d85-a598-5c287a94af74",
+    "remarks": "收入支出"
+  },
+  {
+    "abbreviation": "REER",
+    "fullName": "Real Effective Exchange Rate",
+    "id": "f3e6a1df-fc77-4deb-a32d-da579bdf729f",
+    "remarks": "实际有效汇率"
+  },
+  {
+    "abbreviation": "RIB",
+    "fullName": "Resurgent India Bonds",
+    "id": "9c78ea00-4fd4-4663-bfa1-d88aecddf73e",
+    "remarks": "复兴印度债券"
+  },
+  {
+    "abbreviation": "RLA",
+    "fullName": "Recoveries of Loans and Advancements",
+    "id": "7ba25785-d919-4fba-b983-828613a29cee",
+    "remarks": "贷款和预付款的回收"
+  },
+  {
+    "abbreviation": "RoC’s",
+    "fullName": "Registrars of Companies",
+    "id": "3ce86b2f-cc13-48f1-9081-a19d3ca50ab9",
+    "remarks": "公司注册处"
+  },
+  {
+    "abbreviation": "RR",
+    "fullName": "Revenue Receipts",
+    "id": "b5ffe5ca-2ffe-47e4-9480-887ff03a4461",
+    "remarks": "收入收据"
+  },
+  {
+    "abbreviation": "RRB",
+    "fullName": "Regional Rural Bank",
+    "id": "494219e2-4479-4671-9b06-c82fd5943a43",
+    "remarks": "区域农村银行"
+  },
+  {
+    "abbreviation": "RTP",
+    "fullName": "Reserve Tranche Position",
+    "id": "b7de1b3c-61d4-43bb-ac2c-0d886af493ba",
+    "remarks": "储备份额位置"
+  },
+  {
+    "abbreviation": "RUF",
+    "fullName": "Revolving Underwriting Facility",
+    "id": "85d9d5c9-7c2b-4e15-b03d-81b366fbbb14",
+    "remarks": "循环承销工具"
+  },
+  {
+    "abbreviation": "RWA",
+    "fullName": "Risk Weighted Asset",
+    "id": "285539e7-7807-43be-97d9-72ee85c09d0f",
+    "remarks": "风险加权资产"
+  },
+  {
+    "abbreviation": "SCARDB",
+    "fullName": "State Co-operative Agriculture and Rural Development Bank",
+    "id": "24c97e5b-f581-4fd6-a2b1-7cf5926283db",
+    "remarks": "州合作农业和农村发展银行"
+  },
+  {
+    "abbreviation": "SCB",
+    "fullName": "State Co-operative Bank\nScheduled Commerical Bank",
+    "id": "be0ca9ee-8e68-49de-af0b-1caeaca71f02",
+    "remarks": "State Co-operative Bank - 州合作银行\nScheduled Commerical Bank - 计划商业银行"
+  },
+  {
+    "abbreviation": "SDDS",
+    "fullName": "Special Data Dissemination Standards",
+    "id": "e0c5b7e5-2db4-44b1-9813-a38e48b34a98",
+    "remarks": "特别数据传播标准"
+  },
+  {
+    "abbreviation": "SEBI",
+    "fullName": "Securities Exchange Board of India",
+    "id": "94a8df68-56a8-4df8-887c-2e07e5c1f613",
+    "remarks": "印度证券交易委员会"
+  },
+  {
+    "abbreviation": "SFC",
+    "fullName": "State Financial Corporation",
+    "id": "7ae6b36b-3e3c-46ec-9e2f-229735fae3f5",
+    "remarks": "州金融公司"
+  },
+  {
+    "abbreviation": "SIDBI",
+    "fullName": "Small Industries Development Bank of India",
+    "id": "dcc2728a-29a4-47cb-92e2-1360c9908d4f",
+    "remarks": "印度小工业发展银行"
+  },
+  {
+    "abbreviation": "SIDC",
+    "fullName": "State Industrial Development Corporation",
+    "id": "0837143a-3747-44a3-a554-c43af50c8810",
+    "remarks": "州工业发展公司"
+  },
+  {
+    "abbreviation": "SLR",
+    "fullName": "Statutory Liquidity Ratio",
+    "id": "5af2adc1-4fa8-4ff1-83ca-39451c092ba5",
+    "remarks": "法定流动性比率"
+  },
+  {
+    "abbreviation": "SMG",
+    "fullName": "Standing Monitoring Group",
+    "id": "3ea1696c-01f7-4936-8814-8d7518cb1c19",
+    "remarks": "常设监测小组"
+  },
+  {
+    "abbreviation": "SNA",
+    "fullName": "System of National Accounts",
+    "id": "e4ab5b6b-3be5-46c1-bdb4-7103f047502e",
+    "remarks": "国民账户体系"
+  },
+  {
+    "abbreviation": "TB’s",
+    "fullName": "Treasury Bills",
+    "id": "b264343a-adfb-486f-a661-1308697cc5bd",
+    "remarks": "国库券"
+  },
+  {
+    "abbreviation": "TC",
+    "fullName": "Temporary Change",
+    "id": "27b3a690-400f-41fb-b8f1-793d46043b83",
+    "remarks": "临时变更"
+  },
+  {
+    "abbreviation": "TT",
+    "fullName": "Telegraphic Transfer",
+    "id": "4d8968d5-7b85-489e-8cfc-e305d08d1c0a",
+    "remarks": "电汇"
+  },
+  {
+    "abbreviation": "UCN",
+    "fullName": "Uniform Code Number",
+    "id": "f7dd2571-e22d-454c-84c2-09ae8045d44e",
+    "remarks": "统一代码编号"
+  },
+  {
+    "abbreviation": "UTI",
+    "fullName": "Unit Trust of India",
+    "id": "63b9d53e-be8e-4141-b816-ee03c8a145fb",
+    "remarks": "印度单位信托"
+  },
+  {
+    "abbreviation": "WPI",
+    "fullName": "Wholesale Price Index",
+    "id": "81f2561b-1427-4b69-a5bf-bf5e7deefe47",
+    "remarks": "批发价格指数"
+  },
+  {
+    "abbreviation": "YTM",
+    "fullName": "Yield to Maturity",
+    "id": "5ac600b5-feb4-4c1e-9cc2-817914da8e29",
+    "remarks": "到期收益率"
+  },
+  {
+    "abbreviation": "ACA",
+    "fullName": "Affordable Care Act",
+    "id": "e6704a17-1aa1-4e7a-b2c3-e24e534653f7",
+    "remarks": "平价医疗法案"
+  },
+  {
+    "abbreviation": "ACO",
+    "fullName": "Accountable Care Organization",
+    "id": "7dc59b4a-3b06-4cc1-9282-ebed0ae99256",
+    "remarks": "责任医疗组织"
+  },
+  {
+    "abbreviation": "APTC",
+    "fullName": "Advanced Premium Tax",
+    "id": "a1a71e49-28ee-468e-a90c-4d9db0cedf2d",
+    "remarks": "高级保费税"
+  },
+  {
+    "abbreviation": "AV",
+    "fullName": "Actuarial Value",
+    "id": "0d45a4c1-8c70-433f-9be4-4b7b260de904",
+    "remarks": "精算价值"
+  },
+  {
+    "abbreviation": "CAC",
+    "fullName": "Certified Application Counselor",
+    "id": "70a60a48-1a15-4578-b5d7-6cdd199a2d56",
+    "remarks": "认证申请顾问"
+  },
+  {
+    "abbreviation": "CCIIO",
+    "fullName": "Center for Consumer Information & Insurance Oversight",
+    "id": "9b0347b6-4b66-438c-9df1-d924d56543cf",
+    "remarks": "消费者信息与保险监督中心"
+  },
+  {
+    "abbreviation": "CDC",
+    "fullName": "Centers for Disease Control & Prevention",
+    "id": "d8472d56-40ef-4d1b-aff3-af85a24716b2",
+    "remarks": "疾病控制与预防中心"
+  },
+  {
+    "abbreviation": "CHC",
+    "fullName": "Community Health Center",
+    "id": "6d98b440-776f-4c5e-b589-09d87615970b",
+    "remarks": "社区健康中心"
+  },
+  {
+    "abbreviation": "CHIP",
+    "fullName": "Children’s Health Insurance Program",
+    "id": "0b3a4792-5244-4ec2-a916-c6ae7529d9d4",
+    "remarks": "儿童健康保险计划"
+  },
+  {
+    "abbreviation": "CMS",
+    "fullName": "Centers for Medicare & Medical Services",
+    "id": "a4fe4120-3428-428f-8fee-c95dd58aa8cb",
+    "remarks": "医疗保险和医疗服务中心"
+  },
+  {
+    "abbreviation": "COBRA",
+    "fullName": "Consolidated Omnibus Budget Reconciliation Act",
+    "id": "682eb0ed-d2c5-4e44-8523-4c52ddbe2604",
+    "remarks": "综合综合预算协调法案"
+  },
+  {
+    "abbreviation": "CO-OP",
+    "fullName": "Consumer Operated & Oriented Plan",
+    "id": "d3195be7-625c-4a6a-8386-98d4d17b3724",
+    "remarks": "消费者运营和导向计划"
+  },
+  {
+    "abbreviation": "CSR",
+    "fullName": "Cost-Sharing Reduction",
+    "id": "92265cb1-474e-4436-8d21-6e76d3c1f05b",
+    "remarks": "成本分摊减少"
+  },
+  {
+    "abbreviation": "DME",
+    "fullName": "Durable Medical Equipment",
+    "id": "859935f8-5324-4b88-9ef1-1b94dc5e0b5d",
+    "remarks": "耐用医疗设备"
+  },
+  {
+    "abbreviation": "ECP",
+    "fullName": "Essential Community Provider",
+    "id": "68554849-9d80-41cb-a536-dfb04e4fca01",
+    "remarks": "基本社区提供者"
+  },
+  {
+    "abbreviation": "EHB",
+    "fullName": "Essential Health Benefits",
+    "id": "a3c2ee56-14cc-4c96-82aa-274f1c5d9087",
+    "remarks": "基本健康福利"
+  },
+  {
+    "abbreviation": "EMR",
+    "fullName": "Electronic Medical Record",
+    "id": "880ec078-7707-441d-9942-7d2e6de9c8ba",
+    "remarks": "电子病历"
+  },
+  {
+    "abbreviation": "EOB",
+    "fullName": "Explanation of Benefits",
+    "id": "17cf726f-13a4-4163-a858-1ab8e451b7fa",
+    "remarks": "福利说明"
+  },
+  {
+    "abbreviation": "EPO",
+    "fullName": "Exclusive Provider Organization",
+    "id": "8193d160-b3f0-40c6-87d9-1f97af0984ad",
+    "remarks": "独家提供者组织"
+  },
+  {
+    "abbreviation": "EPSDT",
+    "fullName": "Early Periodic Screening, Diagnostic & Treatment Services",
+    "id": "6a2ef055-64f6-48af-aa8d-2c0be3ea8377",
+    "remarks": "早期定期筛查、诊断和治疗服务"
+  },
+  {
+    "abbreviation": "ERISA",
+    "fullName": "Employee Retirement Income Security Act",
+    "id": "2d5fd82f-24fc-4295-98d5-ef7a1d5ee4dd",
+    "remarks": "员工退休收入保障法"
+  },
+  {
+    "abbreviation": "ESI",
+    "fullName": "Employee Sponsored Insurance",
+    "id": "3867a3bf-c5f0-44ab-9096-fff3a60f8815",
+    "remarks": "员工赞助保险"
+  },
+  {
+    "abbreviation": "FFM/ FFE",
+    "fullName": "Federally Facilitated Marketplace/ Federally Facilitated Exchange",
+    "id": "abf6c4ab-23a1-4906-a447-6e126570c708",
+    "remarks": "联邦促进的市场/联邦促进的交易所"
+  },
+  {
+    "abbreviation": "FFS",
+    "fullName": "Fee for Service",
+    "id": "3275591f-3297-4d8c-828c-0fc40a7c9019",
+    "remarks": "服务费"
+  },
+  {
+    "abbreviation": "FPL",
+    "fullName": "Federal Poverty Level",
+    "id": "0cb766dc-6e70-4f2d-97f5-066ce450fb19",
+    "remarks": "联邦贫困水平"
+  },
+  {
+    "abbreviation": "FQHC",
+    "fullName": "Federally Qualified Health Center",
+    "id": "56a230f6-a8b8-4a9d-8aa9-e003d6e4ae88",
+    "remarks": "联邦合格健康中心"
+  },
+  {
+    "abbreviation": "FSA",
+    "fullName": "Flexible Spending Amount",
+    "id": "9d9e8c38-d871-4a79-a919-e19143298c7c",
+    "remarks": "灵活支出金额"
+  },
+  {
+    "abbreviation": "HCR",
+    "fullName": "Health Care Reform",
+    "id": "6c93c4d2-c961-4d8b-9f47-fb2e67996873",
+    "remarks": "医疗改革"
+  },
+  {
+    "abbreviation": "HCBS",
+    "fullName": "Home & Community Based Services",
+    "id": "4d3a4999-ec2c-4f10-b974-55fc1f4d968b",
+    "remarks": "家庭和社区服务"
+  },
+  {
+    "abbreviation": "HHS",
+    "fullName": "U.S Department of Health & Human Services",
+    "id": "35ea85ec-0620-4778-ab70-8c89348ca675",
+    "remarks": "美国卫生与公众服务部"
+  },
+  {
+    "abbreviation": "HIPAA",
+    "fullName": "Health Insurance Portability & Accountability Act",
+    "id": "7005a088-1c1c-4c0b-8976-0338d8ba18a5",
+    "remarks": "健康保险可携性和责任法案"
+  },
+  {
+    "abbreviation": "HIM/ HIX",
+    "fullName": "Health Insurance Marketplace/ Health Insurance Exchange",
+    "id": "426406a4-d0cc-4203-856c-097206006c0a",
+    "remarks": "健康保险市场/健康保险交易所"
+  },
+  {
+    "abbreviation": "HMO",
+    "fullName": "Health Maintenance Organization",
+    "id": "c8028970-c89e-44b5-9492-77e8c03a2813",
+    "remarks": "健康维护组织"
+  },
+  {
+    "abbreviation": "HRP",
+    "fullName": "High Risk Pool",
+    "id": "46651e95-3d94-4389-b322-07a31435cab9",
+    "remarks": "高风险池"
+  },
+  {
+    "abbreviation": "HRSA",
+    "fullName": "Health Resources & Services Administration",
+    "id": "631713fb-c11e-403f-a767-ea970d827b93",
+    "remarks": "健康资源和服务管理局"
+  },
+  {
+    "abbreviation": "HSA",
+    "fullName": "Health Savings Account",
+    "id": "030fd1dc-fecc-4cf3-b21e-16be519e5faa",
+    "remarks": "健康储蓄账户"
+  },
+  {
+    "abbreviation": "HDHP",
+    "fullName": "High Deductible Health Plan",
+    "id": "257bb30b-a9c5-4b1e-a557-00ad46ae665c",
+    "remarks": "高免赔额健康计划"
+  },
+  {
+    "abbreviation": "IPA",
+    "fullName": "In-Person Assisters Program",
+    "id": "c50ee569-acb1-41db-822e-bd9893cce662",
+    "remarks": "现场协助计划"
+  },
+  {
+    "abbreviation": "LTC",
+    "fullName": "Long Term Care",
+    "id": "2b2a3f78-9149-4f1b-8512-e9f27d3b48ef",
+    "remarks": "长期护理"
+  },
+  {
+    "abbreviation": "MAGI",
+    "fullName": "Modified Adjusted Gross Income",
+    "id": "5fdd9f7d-fdad-4916-8fa2-658351ad94e1",
+    "remarks": "调整后的总收入"
+  },
+  {
+    "abbreviation": "MA",
+    "fullName": "Medicare Advantage",
+    "id": "a515a990-53b1-4716-8875-8d1ea9d53d26",
+    "remarks": "医疗保险优势计划"
+  },
+  {
+    "abbreviation": "MLR",
+    "fullName": "Medical Loss Ratio",
+    "id": "aa0bf411-0d82-46dd-bd91-722d1e4e7038",
+    "remarks": "医疗损失比率"
+  },
+  {
+    "abbreviation": "OEP",
+    "fullName": "Open Enrollment Period",
+    "id": "43657d9a-71f9-4b03-97bc-06fe6423906b",
+    "remarks": "开放注册期"
+  },
+  {
+    "abbreviation": "OON",
+    "fullName": "Out of Network",
+    "id": "14b0825f-6990-42e8-85da-09db6843ed6f",
+    "remarks": "网络外"
+  },
+  {
+    "abbreviation": "OOP",
+    "fullName": "Out of Pocket",
+    "id": "ff733a42-e2c7-4249-9a48-8e041fdd5313",
+    "remarks": "自付费用"
+  },
+  {
+    "abbreviation": "PBM",
+    "fullName": "Pharmacy Benefit Manager",
+    "id": "f3bf6ec9-6a21-4787-8b47-40f7ef97ae31",
+    "remarks": "药房福利管理"
+  },
+  {
+    "abbreviation": "PCIP",
+    "fullName": "Pre-existing Condition Insurance Plan",
+    "id": "ca8b3a6b-3a96-4615-9cbd-9e9a288e63ca",
+    "remarks": "已有病况保险计划"
+  },
+  {
+    "abbreviation": "PCORI",
+    "fullName": "Patient-Centered Outcomes Research Institute",
+    "id": "88e392eb-0102-4bfe-a159-a3a966412d4e",
+    "remarks": "以患者为中心的结果研究所"
+  },
+  {
+    "abbreviation": "PCP",
+    "fullName": "Primary Care Provider",
+    "id": "f43fee30-d682-4362-b288-804024edfbc9",
+    "remarks": "初级保健提供者"
+  },
+  {
+    "abbreviation": "PDP",
+    "fullName": "Prescription Drug Plan under Medicare Part D",
+    "id": "6e828957-a4ac-4077-a35b-b7d91742ef19",
+    "remarks": "医疗保险D部分下的处方药计划"
+  },
+  {
+    "abbreviation": "POS",
+    "fullName": "Point-of-Service Plan",
+    "id": "de1f4f2f-d0a6-458f-b8aa-45bbe6609bff",
+    "remarks": "服务点计划"
+  },
+  {
+    "abbreviation": "PPO",
+    "fullName": "Preferred Provider Organization",
+    "id": "d2ffb702-8c5b-4207-b5ff-c79bcad6e72f",
+    "remarks": "首选提供者组织"
+  },
+  {
+    "abbreviation": "QHP",
+    "fullName": "Qualified Health Plan",
+    "id": "9ea6f201-e5ca-46f3-bd40-b5e457b1ac72",
+    "remarks": "合格健康计划"
+  },
+  {
+    "abbreviation": "SBC",
+    "fullName": "Summary of Benefits & Coverage",
+    "id": "c87a620c-c1b2-4022-ad58-8095da092f6c",
+    "remarks": "福利和覆盖摘要"
+  },
+  {
+    "abbreviation": "SBM/ SBE",
+    "fullName": "State Based Marketplace/ State Based Exchange",
+    "id": "fa0b6920-30f5-4643-8876-67d4cd6f3bf9",
+    "remarks": "州立市场/州立交易所"
+  },
+  {
+    "abbreviation": "SEP",
+    "fullName": "Special Enrollment Period",
+    "id": "b09e11a0-956d-4daa-80c4-8cc4daa6b4a6",
+    "remarks": "特别注册期"
+  },
+  {
+    "abbreviation": "SHOP",
+    "fullName": "Small Business Health Options Program",
+    "id": "3dca6df5-baa5-42fe-a8ac-a7dc82aefdb5",
+    "remarks": "小企业健康选择计划"
+  },
+  {
+    "abbreviation": "SNF",
+    "fullName": "Skilled Nursing Facility",
+    "id": "4b347628-0b9d-4032-a8cf-ab9fbce1562c",
+    "remarks": "专业护理设施"
+  },
+  {
+    "abbreviation": "SPM/ SPE",
+    "fullName": "State Partnership Marketplace/ State Partnership Exchange",
+    "id": "8f54f613-3f1f-43e3-bb96-4e173c57d3e2",
+    "remarks": "州合作市场/州合作交易所"
+  },
+  {
+    "abbreviation": "SPP",
+    "fullName": "Speciality Pharmacy Provider",
+    "id": "0991c1a6-5d09-4bc0-8dac-6b7ea224d308",
+    "remarks": "专业药房提供者"
+  },
+  {
+    "abbreviation": "SSDI",
+    "fullName": "Social Security Disability Income",
+    "id": "f4c66009-3b69-4670-b3eb-5ddc6f675516",
+    "remarks": "社会保障残疾收入"
+  },
+  {
+    "abbreviation": "SSI",
+    "fullName": "Supplemental Security Income",
+    "id": "cb1cec43-f7b8-4097-9fff-a736dd7643f4",
+    "remarks": "补充保障收入"
+  },
+  {
+    "abbreviation": "TPA",
+    "fullName": "Third Party Administrator",
+    "id": "3e78dc40-265a-444c-9c58-518a5d7cd489",
+    "remarks": "第三方管理员"
+  },
+  {
+    "abbreviation": "UCR",
+    "fullName": "Usual, Customary & Reasonable Charges",
+    "id": "2a8a3c40-e378-4d0a-bd15-f44619c96263",
+    "remarks": "通常、习惯和合理费用"
+  },
+  {
+    "abbreviation": "DCH",
+    "fullName": "Data Center Hub",
+    "id": "db402776-c16c-4dc1-a2c2-a4bd07f1b8d5",
+    "remarks": "花旗采用的消息推送服务"
+  },
+  {
+    "abbreviation": "SFTS",
+    "fullName": "Secure File Transfer Service",
+    "id": "4e3e0e7c-807f-4e06-a2c2-8dc3c7d0d210",
+    "remarks": "花旗用来上传文件的服务"
+  },
+  {
+    "abbreviation": "RSVP",
+    "fullName": "Repondez s’il vous plait (法语)",
+    "id": "d125c08f-4f07-4367-a495-a6cbd36dc85f",
+    "remarks": "RSVP is a French phrase and the RSVP Full Form stands for “Repondez s’il vous plait” which in English means “Please Respond“"
+  },
+  {
+    "abbreviation": "LAT",
+    "fullName": "Linked account type",
+    "id": "e859460c-fe5f-41a2-9419-5f1efb067a8b",
+    "remarks": "关联账户类型"
+  },
+  {
+    "abbreviation": "POC",
+    "fullName": "Proof of Concept",
+    "id": "48d9d027-a625-4643-86a3-962432f5c2fe",
+    "remarks": "Proof of Concept - the concept in software development"
+  },
+  {
+    "abbreviation": "BIAN",
+    "fullName": "Banking Industry Architecture Network",
+    "id": "59ead761-ab37-409a-9e49-ab154656e911",
+    "remarks": "银行业架构网络"
+  },
+  {
+    "abbreviation": "GEM",
+    "fullName": "Global Event Management",
+    "id": "2661503d-7a0c-4fbb-a33d-88a767ea4084",
+    "remarks": "全球事件管理。最高等级的安全问题，通过blackduck扫描出来的CVM问题最高等级的issue会被评为GEM issue，必须要在规定时间内修完，有以下等级：\nL0: 2-14天\nL1/L2：internet： 30/45天；intranet：45/60天\n\nOpen-Source GEM (OOS GEM)\nOOS GEM findings are CVM findings that are highly prioritized due to high security risk posed by a 3rd party library version.\nHard gate: result in build failing for delayed remediation.\nAction Owner: Application team\ne.g. Apache Struts GEM\n18 Dec Apache Struts GEM activation mail published\nS&S and App team: Code analysis, Impact analysis\n18-20 Dec: several rounds of meetings with GEM fusion, Cyber defense, senior ISO, VA team, senior App lead, S&S team\n20 Dec Code deployment on UAT\n21 Dec UTT testing\n22 Dec prod deployment\nThe remediation timeline (effective even in freeze period):\n• Level 0 - must be remediated in 2 - 14 days\n• Level 1 / Level 2\n• Internet - 30/45 days\n• Intranet - 45/60 days\n\nInfrastructure GEM\nScanned by Qualys/IVMP physically from servers. Issues include OS, server, middleware and application levels, e.g. windows patch delay,\nIHS/WAS, AHS vulnerable version, SiteMinder vulnerabilities, Log4j 2.14.1 etc.\nAction Owner: refer to VTM issues\n\nGolden source : CVMP Portal"
+  },
+  {
+    "abbreviation": "OOS GEM",
+    "fullName": "Open-Source GEM",
+    "id": "ab775172-7e0a-4a49-a862-4da020cc3297",
+    "remarks": "OOS GEM findings are CVM findings that are highly prioritized due to high security risk posed by a 3rd party library version."
+  },
+  {
+    "abbreviation": "VTM",
+    "fullName": "Vulnerability Threat Management",
+    "id": "a7f3436f-b3ed-455d-baf3-a2e5ab0607eb",
+    "remarks": "漏洞威胁管理\nScanned by Qualys/IVMP physically from servers. Issues include OS, server, middleware and application levels.\nDashboard: CVMP portal - Cognos\nIssue types and owners:\n• Server: IHS/WAS/AHS/Tomcat/weblogic/ IBM MQ/jBPM\n• Action owner:\nFor CG - CPC:\n• IHS/WAS/AHS/weblogic: for Prod or UAT, if servers in Global patching farm, owner is Global patching team; otherwise server is under deployment, owner is build middleware team. For dev servers, if servers not in GPT farm, owner is application team.\n• Tomcat: For non-embedded Tomcat, same case as above. For Embedded Tomcat, sector support (data middleware team & Application team)\n• IBM MQ: Data middleware team / Application team\n• JBPM: Jackson\nFor CPB: Application team\n• Agents: McAfee/Veritas Netbackup/evolven/AppD/Autosys/CAS/MST agents\n• Action owner:\n• McAfee/Veritas Netbackup : SA or Wintel team\nEvolven/AppD: Evovlen /AppD team\n• Autosys/CAS/MST agents : Application teams\n• Application: Jquery/Obsolete java/Mysql/PHP/log4j/Spring/Plan text Basic Authentication etc\n• Action owner: Application team"
+  },
+  {
+    "abbreviation": "EERS",
+    "fullName": "Enterprise Entitlement Review System",
+    "id": "1daf2c33-8b48-4048-8886-dac7d600b8b6",
+    "remarks": "企业权限审查系统"
+  },
+  {
+    "abbreviation": "GISO",
+    "fullName": "Group Information Security Officer",
+    "id": "283b2547-dfcb-4431-978f-7302f73e9d49",
+    "remarks": "集团信息安全官"
+  },
+  {
+    "abbreviation": "GISMR",
+    "fullName": "Global Information Security Metrics Report",
+    "id": "0d787fcd-0360-4d71-a90a-f3bec09ee238",
+    "remarks": "全球信息安全指标报告"
+  },
+  {
+    "abbreviation": "VA",
+    "fullName": "Vulnerability Assessment",
+    "id": "7213d972-ead8-4125-9b54-432002239fd1",
+    "remarks": "漏洞评估"
+  },
+  {
+    "abbreviation": "SDLC",
+    "fullName": "Software Development Lifecycle",
+    "id": "b2d4511c-c8a0-4b7f-9a62-b3b9f60d781e",
+    "remarks": "软件开发生命周期"
+  },
+  {
+    "abbreviation": "CSRA",
+    "fullName": "Cyber Security Risk Appetite",
+    "id": "59ffee9a-5f8e-4763-888a-11ecf0d909a0",
+    "remarks": "网络安全风险偏好"
+  },
+  {
+    "abbreviation": "CDQR",
+    "fullName": "Continuing Data Quality Review",
+    "id": "b4abcee4-9fb7-41ba-9c0b-faf5e30bebd0",
+    "remarks": "持续数据质量审查"
+  },
+  {
+    "abbreviation": "GIAM",
+    "fullName": "Global Identity & Access Management",
+    "id": "7a4ae573-7f90-4f7b-85ac-57ec1bd17fef",
+    "remarks": "全球身份与访问管理"
+  },
+  {
+    "abbreviation": "BCM",
+    "fullName": "Baseline Configuration Management",
+    "id": "74a0f599-0fbf-4281-8895-989bcb2759c0",
+    "remarks": "基线配置管理"
+  },
+  {
+    "abbreviation": "IAVA",
+    "fullName": "Internal Application Vulnerability Assessment (Comprehensively testing all types of applications, scope of test: Compliance, Limited Scope/Project)",
+    "id": "3a8a8539-a4ee-4463-91ee-21cc2f3fbab4",
+    "remarks": "内部应用漏洞评估（全面测试所有类型的应用，测试范围：合规性，有限范围/项目）"
+  },
+  {
+    "abbreviation": "PPA",
+    "fullName": "Persistent Privileged Access",
+    "id": "2d68b282-170c-4cee-8f91-cf7536ca9bbd",
+    "remarks": "持久特权访问"
+  },
+  {
+    "abbreviation": "CBIP",
+    "fullName": "Cross-border instant payment",
+    "id": "9986fb04-3432-40db-8b21-93e48cdc3d13",
+    "remarks": "跨境即时支付"
+  },
+  {
+    "abbreviation": "SBL",
+    "fullName": "Security Back Lending",
+    "id": "d6626515-b705-42fe-8b44-2aaaa8d79c01",
+    "remarks": "担保回购，一种借贷产品"
+  },
+  {
+    "abbreviation": "SOW",
+    "fullName": "Statement of Work",
+    "id": "4bf0080c-4d42-4c06-8a28-b56f6633e6eb",
+    "remarks": "A statement of work (SOW) is a document routinely employed in the field of project management. It is the narrative description of a project's work requirement. "
+  },
+  {
+    "abbreviation": "CVT",
+    "fullName": "Convert",
+    "id": "3be99539-dd2c-43f6-ac98-7e22d888c0a7",
+    "remarks": "The abbreviation CVT stands for Convert and is mostly used in the following categories: Computing, Programming, Technology, Computer, IT."
+  },
+  {
+    "abbreviation": "BIC",
+    "fullName": "Bank Identifier Code",
+    "id": "beb496a3-a73b-4984-b39a-68d70e634767",
+    "remarks": "BIC也称为 SWIFT 代码，是在国际金融交易中用于指定特定银行或金融机构的唯一字母数字代码。"
+  },
+  {
+    "abbreviation": "GFTT",
+    "fullName": "Global Funds Transfer Transparency",
+    "id": "5d4b128f-24c7-41f4-b79f-f954316e3d32",
+    "remarks": "全球资金转移透明度"
+  },
+  {
+    "abbreviation": "ITSMF",
+    "fullName": "IT Service Management Forum",
+    "id": "8de1d4ff-5b07-40d3-b377-ee8358455f9c",
+    "remarks": "IT 服务管理论坛"
+  },
+  {
+    "abbreviation": "TAS",
+    "fullName": "Transaction Authorization Service",
+    "id": "6172a69d-8167-4e82-ba62-3765733d46a0",
+    "remarks": "交易授权服务，TAS is completely for multisignor and approvers"
+  },
+  {
+    "abbreviation": "FIDO",
+    "fullName": "Fast IDentity Online",
+    "id": "4fe8a6e5-3b2d-4471-a323-e78ab59be134",
+    "remarks": "FIDO（“在线快速身份验证”）联盟是一个开放的行业协会，成立于 2013 年 2 月，其使命是制定和推广身份验证标准，“帮助减少世界对密码的过度依赖”"
+  },
+  {
+    "abbreviation": "PDPA",
+    "fullName": "Political Activities Disclosure Attestation",
+    "id": "2122aa4c-8ffe-4e6f-9c07-5dac14ddf7a8",
+    "remarks": "政治活动披露证明"
+  },
+  {
+    "abbreviation": "TIN",
+    "fullName": "Taxpayer Identification Numbers",
+    "id": "a9bf3584-7a1b-4d43-84d6-07a7cd3d7d66",
+    "remarks": "纳税人识别号 (TIN) 可向政府机构识别个人或实体，以便进行税务申报和财务追踪。由于这些代码将您的记录直接与美国国税局 (IRS) 关联，官员可以更轻松地确认每份申报表或报表是否与正确的账户相符。通过分配唯一的标识符，当局可以减少错误并简化监管。\n\n在大多数情况下，IRS 会颁发 TIN，以保持个人和企业数据的井然有序。此流程有助于确保每个人（从小型企业到大型企业）的信息清晰，并避免在验证合规性或申报税款时产生混淆。尽管 TIN 的形式多种多样，但它们都服务于同一个基本目标：确保在美国税务体系内进行一致、准确的识别。"
+  },
+  {
+    "abbreviation": "IRS",
+    "fullName": "Internal Revenue Service",
+    "id": "86846df9-cc15-458d-a01e-d5f6db1c7993",
+    "remarks": "美国国税局"
+  },
+  {
+    "abbreviation": "EIN",
+    "fullName": "Employer Identification Number",
+    "id": "33e5aa10-4013-4eb9-ab07-57cfcaae0fa0",
+    "remarks": "雇主识别号 (EIN) 专用于企业而非个人，但它仍然属于更广泛的纳税人识别号 (TIN) 类别。EIN 与其他标识符的主要区别在于，EIN 将工资单和财务信息直接关联到企业，而不是个人纳税人。换句话说，您的社会安全号码 (SSN) 可能报告个人收入，而 EIN 记录的是公司交易和债务。这种区别解答了诸如“EIN 和 TIN 是否相同”之类的问题，强调 EIN 是 TIN 的一个专门用于企业和工资单用途的子集，并非适用于所有纳税人的通用解决方案。"
+  },
+  {
+    "abbreviation": "SSN",
+    "fullName": "Social Security Number",
+    "id": "ff554874-cef0-4cfd-9c57-6ee503fb4cde",
+    "remarks": "社会安全号码 (SSN) 是由美国政府向美国公民颁发的九位数字，用于纳税和记录保存。SSN 由美国政府的独立机构社会保障局 (SSA) 颁发给个人。"
+  },
+  {
+    "abbreviation": "SSA",
+    "fullName": "Social Security Administration",
+    "id": "c7c72822-acaf-4c08-8a6b-d7983d26a03c",
+    "remarks": "社会保障局 (SSA) 是美国政府的一个机构，负责管理涵盖残疾、退休和遗属福利等社会项目。"
+  },
+  {
+    "abbreviation": "ISP",
+    "fullName": "Internet Service Provider",
+    "id": "854e35c0-7f38-4f54-841b-340f1fc389a6",
+    "remarks": "ISP - 互联网服务提供商,\nCDN服务提供商会跟ISP网络提供商合作，以便达到快速响应的目的。"
+  },
+  {
+    "abbreviation": "HPA",
+    "fullName": "Horizontal Pod Autoscaling",
+    "id": "e295e9a9-3896-4cc2-9e1a-a18450f3d1d1",
+    "remarks": "Kubernetes里面的一个概念：Pod 水平自动扩缩"
+  },
+  {
+    "abbreviation": "LRU",
+    "fullName": "Least Recently Used",
+    "id": "7b5a31b9-f5fc-482f-a319-43d1921ca579",
+    "remarks": "LRU 是一种称为“最近最少使用缓存”的缓存驱逐算法。类似的还有LFU"
+  },
+  {
+    "abbreviation": "LFU",
+    "fullName": "Least Frequently Used",
+    "id": "570a333c-1e23-4435-a1f7-25fffa0b6585",
+    "remarks": "LFU 是一种称为“最不常用缓存”的缓存驱逐算法。"
+  },
+  {
+    "abbreviation": "DDIA",
+    "fullName": "Designing Data-Intensive Applications",
+    "id": "20ad86fd-6c9f-4a33-8193-4dac78cd9098",
+    "remarks": "数据密集型应用系统设计（一本书的名字）"
+  },
+  {
+    "abbreviation": "MTP",
+    "fullName": "Manual touchpoints",
+    "id": "2268a46c-4f1b-4384-a4e9-8d2f2124eaa3",
+    "remarks": "手动接触点是指流程或系统中需要人工干预的点，例如手动数据录入、文书工作或物理操作。此处的风险控制涉及降低与这些手动接触点相关的风险（例如人为错误、效率低下和安全漏洞）的策略和措施。"
+  }
+]

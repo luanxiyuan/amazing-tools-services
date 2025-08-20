@@ -1,0 +1,9 @@
+[
+  {
+    "id": "246427eb1-2805-4202-9df3-516f1838f123",
+    "name": "Start chrome - disable web security mode",
+    "ports":  [],
+    "osType": "MacOS",
+    "commandFile": "startChrome.sh"
+  }
+]

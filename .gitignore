@@ -1,0 +1,32 @@
+# IDEs and editors
+.idea/
+.git/
+.venv/
+
+.DS_Store
+assets/.DS_Store
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+app.log
+assets/xsd_converter/*
+
+tools/
+static/contacts_bak/
+static/abbreviation_bak/
+static/contacts/contacts_person.xlsx
+static/api_tree/open_and_private_apis.xlsx
+static/ui_marker/ui_api_relation_data.json
+static/bb_contribution_analysis/temp_filtered_commits.xlsx
+static/bb_contribution_analysis/contribution_all/*-*.json
+static/bb_contribution_analysis/contribution_partial/*-*.json
+static/bb_contribution_analysis/default_contribution_all/*-*.json
+static/bb_contribution_analysis/default_contribution_partial/*-*.json
+static/one_step/command_log_files/*.log
+jobs/odyssey_v_structure.json
+**/__pycache__/*

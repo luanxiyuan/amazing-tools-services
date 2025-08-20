@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form_page_listing {
+    padding: 20px 5px 20px 5px;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.image-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-card {
+    width: 18%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page_image {
+    width: 100%;
+    height: auto;
+}
+.image_add_icon {
+    width: 50%;
+    height: auto;
+}

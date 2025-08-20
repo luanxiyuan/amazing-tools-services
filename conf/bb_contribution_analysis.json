@@ -1,0 +1,25 @@
+{
+  "repo_spaces": [
+    {
+      "name": "test",
+      "base_url": "https://test",
+      "project_key": "test"
+    }
+  ],
+  "bb_username": "",
+  "bb_password": "",
+  "is_partial_repos": true,
+  "partial_repos_file_path": "/static/bb_contribution_analysis/bb_repo_links_partial.json",
+  "all_repos_file_path": "/static/bb_contribution_analysis/bb_repo_links_all.json",
+  "partial_contribution_file_path": "/static/bb_contribution_analysis/contribution_partial",
+  "all_contribution_file_path": "/static/bb_contribution_analysis/contribution_all",
+  "default_partial_contribution_file_path": "/static/bb_contribution_analysis/default_contribution_partial",
+  "default_all_contribution_file_path": "/static/bb_contribution_analysis/default_contribution_all",
+  "contribution_excel_path": "/static/bb_contribution_analysis/bb_contribution_analysis_template.xlsx",
+  "temp_filtered_commits_excel_path": "/static/bb_contribution_analysis/temp_filtered_commits.xlsx",
+  "duration_by_days": 90,
+  "branch_page_size": 10,
+  "commit_page_size": 100,
+  "loading_refresh_info_file_path": "/static/bb_contribution_analysis/loading_refresh_info.json",
+  "allowed_refresh_interval_in_minute": 60
+}

@@ -1,0 +1,8 @@
+{
+  "partial_last_refresh_time": "2025-06-06 10:33:04",
+  "all_last_refresh_time": "",
+  "last_refresh_is_partial_repos": true,
+  "duration_by_days": 90,
+  "branch_page_size": 10,
+  "allowed_refresh_interval_in_minute": 60
+}

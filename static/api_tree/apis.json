@@ -1,0 +1,40 @@
+[
+  {
+    "id": "63a7e058-fbbb-49d3-9d16-56370a2ad13e",
+    "swaggerTitle": "IssuedDeviceAdministration_Digital_Domain",
+    "serviceName": "Issued Device Administration",
+    "bianBehaviorQualifier": "",
+    "subQualifier": "",
+    "channel": "DGL",
+    "regionOrCountry": "EA",
+    "apiName": "CardListing",
+    "httpMethod": "GET",
+    "uri": "/test",
+    "classification": "Open",
+    "bianAdoptionLevel": "L1",
+    "apiStatus": "Active",
+    "belongsToApplication": "CPC",
+    "subIds": [],
+    "remark": "V1.7 is in 172249_ESB_TW",
+    "createTime": "2025-01-03 14:42:57 758190"
+  },
+  {
+    "id": "3e64ab03-79c5-40e2-ad73-fcc0ff3ec867",
+    "swaggerTitle": "",
+    "serviceName": "",
+    "bianBehaviorQualifier": "",
+    "subQualifier": "",
+    "channel": "",
+    "regionOrCountry": "",
+    "apiName": "",
+    "httpMethod": "POST",
+    "uri": "/test/test2",
+    "classification": "Open",
+    "bianAdoptionLevel": "",
+    "apiStatus": "Active",
+    "belongsToApplication": "App2",
+    "subIds": [],
+    "remark": "",
+    "createTime": "2025-06-08 17:43:32 200325"
+  }
+]

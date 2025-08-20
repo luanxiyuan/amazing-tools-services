@@ -1,0 +1,21 @@
+{
+  "image_upload_folder": "/static/ui_marker",
+  "applications": [
+    {
+      "id": "app1",
+      "name": "Application 1",
+      "modules": [
+        {
+          "id": "mod1",
+          "name": "Module 1",
+          "functions": [
+            {
+              "id": "fun1",
+              "name": "Function 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

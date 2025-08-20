@@ -1,0 +1,24 @@
+{
+  "_comments": "This is the global config file for all modules, each module should have its own config file, divided by module name, such as 'abbreviation_config.json' for abbreviation module",
+  "ui_marker": {
+    "config_file_path": "conf/ui_marker_config.json"
+  },
+  "api_tree": {
+    "config_file_path": "conf/api_tree_config.json"
+  },
+  "contacts": {
+    "config_file_path": "conf/contacts_config.json"
+  },
+  "abbreviation": {
+    "config_file_path": "conf/abbreviation_config.json"
+  },
+  "swagger_viewer": {
+    "config_file_path": "conf/swagger_viewer_config.json"
+  },
+  "bb_contribution_analysis": {
+    "config_file_path": "conf/bb_contribution_analysis.json"
+  },
+  "one_step": {
+    "config_file_path": "conf/one_step_config.json"
+  }
+}
