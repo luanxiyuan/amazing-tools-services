@@ -98,7 +98,7 @@ def export_person_info_to_excel():
 
     # Select and rename columns for the final output
     final_df = merged_df[['soeId', 'name', 'name_location', 'remark', 'name_team', 'remark_team', 'teamDl']]
-    final_df.columns = ['SOE ID', 'Name', 'Location Name', 'Remark', 'Team Name', 'Team Remark', 'Team DL']
+    final_df.columns = ['ID', 'Name', 'Location Name', 'Remark', 'Team Name', 'Team Remark', 'Team DL']
 
     # Export to Excel
     person_excel_file_path = f"{SysConstants.PROJECT_BASE_PATH.value}/{contacts_conf['person_excel_file_path']}"

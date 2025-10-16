@@ -3,7 +3,7 @@ from enum import Enum
 
 
 class SysConstants(Enum):
-        PROJECT_BASE_PATH = "D:\\01.Programming\\temp\\amazing-tools-services"
+        PROJECT_BASE_PATH = "D:\\01.Programming\\10.Cursor\\amazing-tools-services"
         GLOBAL_CONFIG_FILE = f"{PROJECT_BASE_PATH}/conf/global_config.json"
 
         # module names
@@ -13,6 +13,7 @@ class SysConstants(Enum):
         API_TREE = "api_tree"
         BB_CONTRIBUTION_ANALYSIS = "bb_contribution_analysis"
         ONE_STEP = "one_step"
+        SQL_GENERATOR = "sql_generator"
 
         # Status
         STATUS_SUCCESS = "success"

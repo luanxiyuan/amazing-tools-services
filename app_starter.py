@@ -12,6 +12,7 @@ from engines.bb_contribution_analysis import bb_contribution_analysis_engine
 from engines.contacts import contacts_engine
 from engines.one_step import one_step_engine
 from common_tools import file_tools, image_tools, ip_tools, string_tools
+from engines.sql_generator import sql_generator_engine
 from engines.ui_marker import ui_marker_engine
 from jobs import ui_api_composer, cleaner_tools, bb_contribution_job
 
@@ -738,6 +739,103 @@ def view_execution_log():
 
 
 """===========================One Step related functions end==========================="""
+
+
+"""===========================SQL generator related functions start==========================="""
+
+
+# The function to get DB types
+@app.route('/sql_generator/db_types', methods=['GET'])
+def get_db_types():
+    return jsonify(sql_generator_engine.get_supported_database_types()), SysConstants.HTTP_STATUS_OK.value
+
+
+def get_db_param_names(request):
+    dbType = request.json.get('dbType')
+    host = request.json.get('host')
+    port = request.json.get('port')
+    database = request.json.get('database')
+    username = request.json.get('username')
+    password = request.json.get('password')
+    return dbType, host, port, database, username, password
+
+
+# The function to check if the DB connection is valid
+@app.route('/sql_generator/check_db_connection', methods=['POST'])
+def check_db_connection():
+    dbType, host, port, database, username, password = get_db_param_names(request)
+
+    if not all([dbType, host, port, database, username, password]):
+        return jsonify({"status": SysConstants.STATUS_FAILED.value,
+                        "message": SysConstants.MSG_INVALID_PARAMETERS.value}), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection_result = sql_generator_engine.check_db_connection(dbType, host, port, database, username, password)
+    if connection_result["status"] == SysConstants.STATUS_FAILED.value:
+        return jsonify(connection_result), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+    else:
+        return jsonify(connection_result), SysConstants.HTTP_STATUS_OK.value
+
+
+# The function to get all the tables in the database
+@app.route('/sql_generator/tables', methods=['POST'])
+def get_tables():
+    dbType, host, port, database, username, password = get_db_param_names(request)
+
+    if not all([dbType, host, port, database, username, password]):
+        return jsonify({"status": SysConstants.STATUS_FAILED.value,
+                        "message": SysConstants.MSG_INVALID_PARAMETERS.value}), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection_result = sql_generator_engine.check_db_connection(dbType, host, port, database, username, password)
+    if connection_result["status"] == SysConstants.STATUS_FAILED.value:
+        return jsonify(connection_result), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection = sql_generator_engine.build_connection(dbType, host, port, database, username, password)
+    tables_result = sql_generator_engine.get_table_list(connection)
+    return jsonify(tables_result), SysConstants.HTTP_STATUS_OK.value
+
+
+# The function to get all the columns in the table
+@app.route('/sql_generator/table_columns', methods=['POST'])
+def get_columns():
+    dbType, host, port, database, username, password = get_db_param_names(request)
+    table_name = request.json.get('tableName')
+
+    if not all([dbType, host, port, database, username, password, table_name]):
+        return jsonify({"status": SysConstants.STATUS_FAILED.value,
+                        "message": SysConstants.MSG_INVALID_PARAMETERS.value}), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection_result = sql_generator_engine.check_db_connection(dbType, host, port, database, username, password)
+    if connection_result["status"] == SysConstants.STATUS_FAILED.value:
+        return jsonify(connection_result), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection = sql_generator_engine.build_connection(dbType, host, port, database, username, password)
+    columns_result = sql_generator_engine.get_table_column_comments(connection, table_name)
+    return jsonify(columns_result), SysConstants.HTTP_STATUS_OK.value
+
+
+# The function to get the db promot information
+@app.route('/sql_generator/db_prompts', methods=['POST'])
+def get_db_prompts():
+    dbType, host, port, database, username, password = get_db_param_names(request)
+    table_name = request.json.get('tableNames')
+    business_requirement = request.json.get('businessRequirement')
+    operation_type = request.json.get('operationType')  # query / optimize
+    existing_sql = request.json.get('existingSql')
+
+    if not all([dbType, host, port, database, username, password, table_name]):
+        return jsonify({"status": SysConstants.STATUS_FAILED.value,
+                        "message": SysConstants.MSG_INVALID_PARAMETERS.value}), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection_result = sql_generator_engine.check_db_connection(dbType, host, port, database, username, password)
+    if connection_result["status"] == SysConstants.STATUS_FAILED.value:
+        return jsonify(connection_result), SysConstants.HTTP_STATUS_BAD_REQUEST.value
+
+    connection = sql_generator_engine.build_connection(dbType, host, port, database, username, password)
+    prompts_result = sql_generator_engine.generate_db_prompt(connection, table_name, operation_type, business_requirement, existing_sql)
+    return jsonify(prompts_result), SysConstants.HTTP_STATUS_OK.value
+
+
+"""===========================SQL generator related functions end==========================="""
 
 
 

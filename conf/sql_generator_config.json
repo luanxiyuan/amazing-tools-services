@@ -1,0 +1,20 @@
+{
+  "database_types": [
+    {
+      "name": "mysql",
+      "value": "Mysql"
+    },
+    {
+      "name": "postgresql",
+      "value": "Postgresql"
+    },
+    {
+      "name": "oracle",
+      "value": "Oracle"
+    },
+    {
+      "name": "sqlserver",
+      "value": "Sqlserver"
+    }
+  ]
+}

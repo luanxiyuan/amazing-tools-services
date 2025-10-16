@@ -20,5 +20,8 @@
   },
   "one_step": {
     "config_file_path": "conf/one_step_config.json"
+  },
+  "sql_generator": {
+    "config_file_path": "conf/sql_generator_config.json"
   }
 }

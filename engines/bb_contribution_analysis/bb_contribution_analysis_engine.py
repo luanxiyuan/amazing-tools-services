@@ -47,7 +47,7 @@ def get_branches(base_url, project_key, repo_slug):
 
 
 # write a function to get the soeids from excel file: /static/bb_contribution_analysis/bb_contribution_analysis_template.xlsx
-# there're 2 columns "SOEID" and "Name", get the list of soeids from column "SOEID"
+# there're 2 columns "ID" and "Name", get the list of soeids from column "ID"
 def get_soeids():
     bb_conf = file_tools.load_module_config_file(SysConstants.BB_CONTRIBUTION_ANALYSIS.value)
     soeids = []
