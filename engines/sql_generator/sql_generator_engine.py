@@ -530,18 +530,21 @@ def generate_db_prompt(connection, table_names, operation_type, business_require
                 idx_name = idx.get('Key_name', '')
                 unique_text = "唯一" if idx.get('Non_unique', 1) == 0 else "非唯一"
                 idx_type = idx.get('Index_type', '')
+                seq_in_index = idx.get('Seq_in_index', 0)
                 columns = idx.get('Column_name', '')
                 collation = idx.get('Collation', '')
                 cardinality = idx.get('Cardinality', 0)
                 comment = idx.get('Comment', '')
                 index_comment = idx.get('Index_comment', '')
+
+                seq_in_index_text = f", Seq_in_index: {seq_in_index}" if seq_in_index else ""
+                collation_text = f", Collation: {collation}" if collation else ""
+                cardinality_text = f", Cardinality: {cardinality}" if cardinality else ""
+                comment_text = f", Comment: {comment}" if comment else ""
+                index_comment_text = f", Index_comment: {index_comment}" if index_comment else ""
+
                 
-                collation_text = f", 排序规则: {collation}" if collation else ""
-                cardinality_text = f", 基数: {cardinality}" if cardinality else ""
-                comment_text = f", 注释: {comment}" if comment else ""
-                index_comment_text = f", 索引注释: {index_comment}" if index_comment else ""
-                
-                output.append(f"      - {idx_name} ({unique_text}): {columns} ({idx_type}{collation_text}{cardinality_text}{comment_text}{index_comment_text})")
+                output.append(f"      - {idx_name} ({unique_text}): {columns} ({idx_type}{seq_in_index_text}{collation_text}{cardinality_text}{comment_text}{index_comment_text})")
         else:
             output.append("      - 无索引信息")
 
@@ -552,7 +555,7 @@ def generate_db_prompt(connection, table_names, operation_type, business_require
         output.append(f"- 查询场景：高频查询，要求极致的响应速度")
         output.append("- 基于以上现有的数据库和表信息，不改变表结构，索引等内容的前提下，直接给出一个最优的SQL语句和必要的解释")
     elif operation_type == "optimize":
-        output.append("- 基于以上现有的数据库和表信息，给出优化方案，包括但不限于修改表的索引，优化现有SQL脚本等，并给出必要的解释")
+        output.append("- 基于以上现有的数据库和表信息，给出优化方案，包括但不限于修改表的索引，优化现有SQL脚本等，并说明现在的性能问题和给出必要的解释")
         output.append("- 现有数据库SQL脚本如下：")
         output.append(existing_sql)
 
